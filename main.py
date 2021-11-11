@@ -4,7 +4,7 @@ all_students = pd.read_csv("All Students.csv")
 preference_responses = pd.read_csv("Preference Responses.csv")
 program_data = pd.read_csv("Program Data.csv")
 presenters = pd.read_csv("Presenters.csv")
-
+'''
 print("All Students")
 print(all_students.head())
 print(all_students.dtypes)
@@ -20,3 +20,7 @@ print(program_data.dtypes)
 print("\n Presenters")
 print(presenters.head())
 print(presenters.dtypes)
+'''
+pd.set_option('display.max_rows', None)
+pr = preference_responses.sort_values(by=['What grade are you in?'])
+pr.to_csv("Preference Responses.csv", index=False)
