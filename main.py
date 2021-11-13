@@ -39,3 +39,11 @@ all_students = all_students[~all_students['Email'].isin(presenters['Email'])]
 all_students.to_csv("All Students.csv", index=False)
 #check if values of 'Email' column in 'all_students' are in 'presenters'
 print(all_students['Email'].isin(presenters['Email']))
+
+#make all values in "Email" column in 'preference responses' lowercase
+for column in preference_responses.columns:
+    preference_responses['Email'] = preference_responses['Email'].str.lower()
+#delete all instances of values that are in 'preference_responses' from 'all_students'
+all_students = all_students[~all_students['Email'].isin(preference_responses['Email'])]
+#save all_students to a new csv file
+all_students.to_csv("All Students1.csv", index=False)
