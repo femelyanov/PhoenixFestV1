@@ -1,5 +1,5 @@
 import pandas as pd
-from pandas.io.pytables import dropna_doc
+import matplotlib.pyplot as plt
 
 #reads all the files given
 all_students = pd.read_csv("All Students.csv")
@@ -50,4 +50,53 @@ all_students = all_students[~all_students['Email'].isin(preference_responses['Em
 #save all_students to a new csv file
 all_students.to_csv("All Students1.csv", index=False)
 
-#
+#put the distribution of data for 'what is your 1st choice session?' in 'preference responses' into a dictionary
+#key is the session name, value is the number of students in that session
+session_distribution_1_1 = {}
+for i in range(len(preference_responses)):
+    if preference_responses['What is your 1st choice session?'][i] in session_distribution_1_1:
+        session_distribution_1_1[preference_responses['What is your 1st choice session?'][i]] += 1
+    else:
+        session_distribution_1_1[preference_responses['What is your 1st choice session?'][i]] = 1
+print(session_distribution_1_1)
+
+#put the distribution of data for 'what is your 2nd choice session?' in 'preference responses' into a dictionary
+#key is the session name, value is the number of students in that session
+session_distribution_1_2 = {}
+for i in range(len(preference_responses)):
+    if preference_responses['What is your 2nd choice session?'][i] in session_distribution_1_2:
+        session_distribution_1_2[preference_responses['What is your 2nd choice session?'][i]] += 1
+    else:
+        session_distribution_1_2[preference_responses['What is your 2nd choice session?'][i]] = 1
+print(session_distribution_1_2)
+
+#put the distribution of data for 'what is your 3rd choice session?' in 'preference responses' into a dictionary
+#key is the session name, value is the number of students in that session
+session_distribution_1_3 = {}
+for i in range(len(preference_responses)):
+    if preference_responses['What is your 3rd choice session?'][i] in session_distribution_1_3:
+        session_distribution_1_3[preference_responses['What is your 3rd choice session?'][i]] += 1
+    else:
+        session_distribution_1_3[preference_responses['What is your 3rd choice session?'][i]] = 1
+print(session_distribution_1_3)
+
+#put the distribution of data for 'what is your 4th choice session?' in 'preference responses' into a dictionary
+#key is the session name, value is the number of students in that session
+session_distribution_1_4 = {}
+for i in range(len(preference_responses)):
+    if preference_responses['What is your 4th choice session?'][i] in session_distribution_1_4:
+        session_distribution_1_4[preference_responses['What is your 4th choice session?'][i]] += 1
+    else:
+        session_distribution_1_4[preference_responses['What is your 4th choice session?'][i]] = 1
+print(session_distribution_1_4)
+
+#put the distribution of data for 'what is your 5th choice session?' in 'preference responses' into a dictionary
+#key is the session name, value is the number of students in that session
+session_distribution_1_5 = {}
+for i in range(len(preference_responses)):
+    if preference_responses['What is your 5th choice session?'][i] in session_distribution_1_5:
+        session_distribution_1_5[preference_responses['What is your 5th choice session?'][i]] += 1
+    else:
+        session_distribution_1_5[preference_responses['What is your 5th choice session?'][i]] = 1
+print(session_distribution_1_5)
+
