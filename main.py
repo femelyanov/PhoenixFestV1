@@ -1,40 +1,14 @@
 import pandas as pd
-
-<<<<<<< Updated upstream
-=======
 # Dictionaries
 cat1 = {} #contains the program ID (presentation number) as the key, and for the value, the names of students that are in the presenation (list)
 students = {} #contains the email of the student as the key, and for the value, the program IDs of the presentations that they are assigned to (list)
 
 
 #reads all the files given
->>>>>>> Stashed changes
 all_students = pd.read_csv("All Students.csv")
 preference_responses = pd.read_csv("Preference Responses.csv")
 program_data = pd.read_csv("Program Data.csv")
 presenters = pd.read_csv("Presenters.csv")
-<<<<<<< Updated upstream
-'''
-print("All Students")
-print(all_students.head())
-print(all_students.dtypes)
-
-print("\n Preference Responses")
-print(preference_responses.head())
-print(preference_responses.dtypes)
-
-print("\n Program Data")
-print(program_data.head())
-print(program_data.dtypes)
-
-print("\n Presenters")
-print(presenters.head())
-print(presenters.dtypes)
-'''
-pd.set_option('display.max_rows', None)
-pr = preference_responses.sort_values(by=['What grade are you in?'])
-pr.to_csv("Preference Responses.csv", index=False)
-=======
 student_choices = {} #creates a dictionary to store the student assignments
 
 #sorts the preference responses by grade level (9->12) and saves (to the same file)
@@ -105,4 +79,3 @@ for i in range(len(preference_responses)):
     else:
         session_distribution_1_5[preference_responses['What is your 5th choice session?'][i]] = 1
 print(session_distribution_1_5)
->>>>>>> Stashed changes
