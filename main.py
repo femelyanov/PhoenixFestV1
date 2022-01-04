@@ -1,11 +1,4 @@
 import pandas as pd
-<<<<<<< Updated upstream
-
-all_students = pd.read_csv("All Students.csv")
-preference_responses = pd.read_csv("Preference Responses.csv")
-program_data = pd.read_csv("Program Data.csv")
-presenters = pd.read_csv("Presenters.csv")
-=======
 import matplotlib.pyplot as plt
 import pprint
 
@@ -21,7 +14,6 @@ presenters = pd.read_csv("Presenters.csv") # emails of the presenters
 student_choices = {} #creates a dictionary to store the student assignments
 
 #prints all the dataframes and their types
->>>>>>> Stashed changes
 '''
 print("All Students")
 print(all_students.head())
@@ -42,8 +34,6 @@ print(presenters.dtypes)
 pd.set_option('display.max_rows', None)
 pr = preference_responses.sort_values(by=['What grade are you in?'])
 pr.to_csv("Preference Responses.csv", index=False)
-<<<<<<< Updated upstream
-=======
 
 #formats the data and gets the final list of just the students that did not sign up
 #make all values in 'Email'column in all_students lowercase
@@ -161,4 +151,4 @@ for i in range(len(all_students)):
         student.choices = [class1, class2,class3,class4]
 
     students.append(student)
->>>>>>> Stashed changes
+print(students)
