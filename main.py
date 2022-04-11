@@ -1,8 +1,10 @@
+from tkinter import N
 import pandas as pd
 import matplotlib.pyplot as plt
 import pprint
 from hungarian_algorithm import algorithm
 import random
+import collections
 
 from program import Program
 from student import Student
@@ -16,23 +18,7 @@ presenters = pd.read_csv("Presenters.csv") # emails of the presenters
 student_choices = {} #creates a dictionary to store the student assignments
 
 #prints all the dataframes and their types
-'''
-print("All Students")
-print(all_students.head())
-print(all_students.dtypes)
 
-print("\n Preference Responses")
-print(preference_responses.head())
-print(preference_responses.dtypes)
-
-print("\n Program Data")
-print(program_data.head())
-print(program_data.dtypes)
-
-print("\n Presenters")
-print(presenters.head())
-print(presenters.dtypes)
-'''
 pd.set_option('display.max_rows', None)
 pr = preference_responses.sort_values(by=['What grade are you in?'])
 pr.to_csv("Preference Responses.csv", index=False)
@@ -60,78 +46,7 @@ for column in presenters.columns:
 #all_students = all_students[~all_students['Email'].isin(preference_responses['Email'])]
 #save all_students to a new csv file
 #all_students.to_csv("No Choices.csv", index=False)
-'''
-#put the distribution of data for 'what is your 1st choice session?' in 'preference responses' into a dictionary
-#key is the session name, value is the number of students in that session
-session_distribution_1_1 = {}
-for i in range(len(preference_responses)):
-    if preference_responses['What is your 1st choice session?'][i] in session_distribution_1_1:
-        session_distribution_1_1[preference_responses['What is your 1st choice session?'][i]] += 1
-    else:
-        session_distribution_1_1[preference_responses['What is your 1st choice session?'][i]] = 1
-#pprint.pprint(session_distribution_1_1)
 
-#put the distribution of data for 'what is your 2nd choice session?' in 'preference responses' into a dictionary
-#key is the session name, value is the number of students in that session
-session_distribution_1_2 = {}
-for i in range(len(preference_responses)):
-    if preference_responses['What is your 2nd choice session?'][i] in session_distribution_1_2:
-        session_distribution_1_2[preference_responses['What is your 2nd choice session?'][i]] += 1
-    else:
-        session_distribution_1_2[preference_responses['What is your 2nd choice session?'][i]] = 1
-#print(session_distribution_1_2)
-
-#put the distribution of data for 'what is your 3rd choice session?' in 'preference responses' into a dictionary
-#key is the session name, value is the number of students in that session
-session_distribution_1_3 = {}
-for i in range(len(preference_responses)):
-    if preference_responses['What is your 3rd choice session?'][i] in session_distribution_1_3:
-        session_distribution_1_3[preference_responses['What is your 3rd choice session?'][i]] += 1
-    else:
-        session_distribution_1_3[preference_responses['What is your 3rd choice session?'][i]] = 1
-#print(session_distribution_1_3)
-
-#put the distribution of data for 'what is your 4th choice session?' in 'preference responses' into a dictionary
-#key is the session name, value is the number of students in that session
-session_distribution_1_4 = {}
-for i in range(len(preference_responses)):
-    if preference_responses['What is your 4th choice session?'][i] in session_distribution_1_4:
-        session_distribution_1_4[preference_responses['What is your 4th choice session?'][i]] += 1
-    else:
-        session_distribution_1_4[preference_responses['What is your 4th choice session?'][i]] = 1
-#print(session_distribution_1_4)
-
-#put the distribution of data for 'what is your 5th choice session?' in 'preference responses' into a dictionary
-#key is the session name, value is the number of students in that session
-session_distribution_1_5 = {}
-for i in range(len(preference_responses)):
-    if preference_responses['What is your 5th choice session?'][i] in session_distribution_1_5:
-        session_distribution_1_5[preference_responses['What is your 5th choice session?'][i]] += 1
-    else:
-        session_distribution_1_5[preference_responses['What is your 5th choice session?'][i]] = 1
-#print(session_distribution_1_5)
-'''
-'''
-# put the 'max cap' of each session into a dictionary
-# key is the session name, value is the max cap of that session
-max_cap = {}
-for i in range(len(program_data)):
-    max_cap[program_data['Program ID'][i]] = program_data['Max Cap'][i]
-#pprint.pprint(max_cap)
-def first_session ():
-    session_1 = {}
-    for x in session_distribution_1_1:
-        if session_distribution_1_1[x] < max_cap[x]:
-            session_1[x] = []
-            for i in range(len(preference_responses)):
-                if preference_responses['What is your 1st choice session?'][i] == x:
-                    session_1[x].append(preference_responses['Email'][i])
-    #pprint.pprint(capacity)
-    pprint.pprint(session_1)
-
-print("\n")
-
-print(first_session())'''
 programs = []
 for i in range(len(program_data)):
     program = Program(program_data["Program Title"][i],program_data['Program ID'][i],program_data["Category"][i],program_data["Room #"][i], program_data['Min Cap'][i],program_data['Max Cap'][i], program_data['Supervisor(s)'][i])
@@ -174,7 +89,8 @@ for student in students: # goes through every student
     elif len(student.choices) == 0: # if didnt make choices, then put him in the 'extra students' container
         extra_students.append(student)
     else:
-        print(student.choices[0]) # print the choices of the student
+        #print(student.choices[0]) # print the choices of the student
+        pass
         for pr_id in student.choices[0]: # for every program id, go through every choice that the student has
             program = find_program(pr_id)
             if program.is_available(): # checks if a program is available
@@ -224,11 +140,37 @@ for student in students: # prints the dictionary of distribution of the choices
         test_list.append(student)
     else:
         for choice in student.choices[0]:
+            #print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+            #print(student.choices[0])
             if choice in distribution:
                 distribution[choice] += 1
             else:
                 distribution[choice] = 1
+
+ordered_distribution = collections.OrderedDict(sorted(distribution.items()))
+print()
 print(distribution)
+print()
+print(ordered_distribution)
+'''
+not_enough_people = []
+for key in distribution:
+    for period in programs:
+        if period.program_id == key:
+            if distribution[key] < period.min_cap:
+                #print("not enough people")
+                not_enough_people.append(period.program_id)
+
+for i in programs:
+    if i in not_enough_people:
+        for person in students:
+            if i.program_id in person.choices[0]:
+                i.students.append(person.email)
+
+for i in programs:
+    if i in not_enough_people:
+        if len
+'''
 '''
 extra_students_test = []
 for student in students:
@@ -255,3 +197,18 @@ for student in students:
 #    print(i.program_id, len(i.students))
 '''
 
+# Give everybody their first-choice courses.  If any are oversubscribed, 
+# then randomly pick a subset to get in and assign those people 
+# their second-choice course, repeating as necessary.
+
+for person in students:
+    person.choices[0][0]
+
+    '''
+    Get distribution of all the choices (1-5)
+If there are fewer sign-ups than the minimum, put all of the people that signed up for that class, into it
+Because we know that even with those students the minimum number would not be met, fill the rest of the positions with people that did not sign up until the minimum number required
+Then, we go through every person and give them their first choice if available, and if not, their second choice, and so on and if none of them are available, we throw them into the “extra” pile for now
+After everyone is done, we check 
+
+    '''
