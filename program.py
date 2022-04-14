@@ -19,7 +19,7 @@ class Program:
         self.students = []
 
     def is_available(self):
-        if len(self.students) < self.max_cap:
+        if len(self.students) < self.max_cap - 2:
             return True
         else:
             return False

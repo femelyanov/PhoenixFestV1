@@ -41,12 +41,6 @@ for column in preference_responses.columns:
 for column in presenters.columns:
     presenters['Email'] = presenters['Email'].str.lower()
 
-# Make a new file of just the people who have not chosen preferences
-#delete all instances of values that are in 'preference_responses' from 'all_students'
-#all_students = all_students[~all_students['Email'].isin(preference_responses['Email'])]
-#save all_students to a new csv file
-#all_students.to_csv("No Choices.csv", index=False)
-
 programs = []
 for i in range(len(program_data)):
     program = Program(program_data["Program Title"][i],program_data['Program ID'][i],program_data["Category"][i],program_data["Room #"][i], program_data['Min Cap'][i],program_data['Max Cap'][i], program_data['Supervisor(s)'][i])
@@ -70,6 +64,11 @@ for i in range(len(all_students)):
 
     students.append(student)
 
+students_no_pres = []
+for s in students:
+    if s.choices and s.presenter == False:
+        students_no_pres.append(s)
+
 def find_program(id):
     for p in programs:
         if p.program_id == id:
@@ -77,10 +76,25 @@ def find_program(id):
 
     return None
 
-for i in programs:
-    print(i.program_id, len(i.students)) # print each program and how many students are in the program
+def find_student(email):
+    for s in students:
+        if s.email == email:
+            return s
 
-extra_students = []
+    return None
+
+def is_program_full(program):
+    if program.max_cap == len(program.students):
+        return True
+
+def are_programs_full():
+    for p in programs:
+        if is_program_full(p):
+            return True
+
+    return False
+
+'''extra_students = []
 no_left = 0
 for student in students: # goes through every student
     if student.presenter == True: #if presenter, pass
@@ -108,7 +122,7 @@ for p in range(0,21): # go through every program (put 0-21) because there are 21
     if len(program.students) < program.min_cap:
         difference = program.min_cap - len(program.students) # difference between the minimum cap and the number of students in there (so we can see how many students need to be added to satisfy the min cap)
         all_diff += difference # see how many people we need
-#print("Need people: ", all_diff)
+#print("Need people: ", all_diff)'''
 
 y = 0
 z = 0
@@ -121,94 +135,50 @@ for x in students: # get the distribution of presenters,
     #print(x.choices)
     if x.presenter == True and len(x.choices) > 0:
         o += 1
-#print("presenters: ",y)
-#print("no choices: ",z)
-#print("presenter with choices: ",o)
-#print(len(extra_students))
 
-#print(len(students))
-#for i in programs:
-#    print(i.program_id, len(i.students))
-
-test_list = []
-distribution = {}
-for student in students: # prints the dictionary of distribution of the choices 
-    if student.presenter == True:
-        #print(student.email, "is presenter")
-        pass
-    elif len(student.choices) == 0:
-        test_list.append(student)
-    else:
-        for choice in student.choices[0]:
-            #print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
-            #print(student.choices[0])
-            if choice in distribution:
-                distribution[choice] += 1
-            else:
-                distribution[choice] = 1
-
-ordered_distribution = collections.OrderedDict(sorted(distribution.items()))
-print()
-print(distribution)
-print()
-print(ordered_distribution)
-'''
-not_enough_people = []
-for key in distribution:
-    for period in programs:
-        if period.program_id == key:
-            if distribution[key] < period.min_cap:
-                #print("not enough people")
-                not_enough_people.append(period.program_id)
-
-for i in programs:
-    if i in not_enough_people:
-        for person in students:
-            if i.program_id in person.choices[0]:
-                i.students.append(person.email)
-
-for i in programs:
-    if i in not_enough_people:
-        if len
-'''
-'''
-extra_students_test = []
-for student in students:
-    if student.presenter == True:
-        #print(student.email, "is presenter")
-        pass
-    elif len(student.choices) == 0:
-        extra_students_test.append(student)
-    else:
-        final_id = 0
-        cap = 999
-        for choice in student.choices[0]:
-            prog_capa = len(find_program(choice).students)
-            if find_program(choice).is_available() == True:
-                if prog_capa < cap:
-                    cap = prog_capa
-                    final_id = choice
-            find_program(final_id).students.append(student.email)
-        #print(student.email, "final ID: ", final_id)
-        if student.assigned[0] == False:
-            extra_students.append(student)
-
-#for i in programs:
-#    print(i.program_id, len(i.students))
-'''
 
 # Give everybody their first-choice courses.  If any are oversubscribed, 
 # then randomly pick a subset to get in and assign those people 
 # their second-choice course, repeating as necessary.
+for x in students:
+    pass
+    #print(x.choices)
 
-for person in students:
-    person.choices[0][0]
+for person in students_no_pres: 
+    first_choice = person.choices[0][0] # get the first choice of the student
+    first_program = find_program(first_choice) # find the program that the student chose
+    first_program.students.append(person) # add the student to the program
 
-    '''
-    Get distribution of all the choices (1-5)
-If there are fewer sign-ups than the minimum, put all of the people that signed up for that class, into it
-Because we know that even with those students the minimum number would not be met, fill the rest of the positions with people that did not sign up until the minimum number required
-Then, we go through every person and give them their first choice if available, and if not, their second choice, and so on and if none of them are available, we throw them into the “extra” pile for now
-After everyone is done, we check 
+overflown_programs = []
+for program in programs: # go through every program
+    if program.is_available() == False: # if the program is oversubscribed
+        overflown_programs.append(program) # add it to the list of overflown programs
 
-    '''
+poor_kids = [] 
+for oprogram in overflown_programs: # for every program that is oversubscribed
+    while len(oprogram.students) > oprogram.max_cap: # if the program is oversubscribed, then we need to remove people from it
+        poor_kids.append(random.choice(oprogram.students)) # randomly pick a student from the program
+        oprogram.students.remove(poor_kids[-1]) # remove them from the program
+
+for person in poor_kids: 
+    second_choice = person.choices[0][1] # get the first choice of the student
+    second_program = find_program(second_choice) # find the program that the student chose
+    second_program.students.append(person) # add the student to the program
+
+overflown_programs = []
+for program in programs: # go through every program
+    if program.is_available() == False: # if the program is oversubscribed
+        overflown_programs.append(program) # add it to the list of overflown programs
+
+
+
+for x in programs:
+    print()
+    print("program ID: ", x.program_id)
+    print()
+    print(x.students)
+    print()
+    print("number of students in program: ", len(x.students))
+    print()
+    print("~~~~~~~~~~~~~~~~~~~~~~~")
+
