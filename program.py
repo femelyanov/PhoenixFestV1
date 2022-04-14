@@ -16,6 +16,14 @@ class Program:
         self.min_cap = min_cap
         self.max_cap = max_cap
         self.supervisor = supervisor
+        self.students = []
+
+    def is_available(self):
+        if len(self.students) < self.max_cap - 2:
+            return True
+        else:
+            return False
     
     def print_program(self):
         print(self.title, self.program_id, self.category, self.room, self.min_cap, self.max_cap, self.supervisor)
+
