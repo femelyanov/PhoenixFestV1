@@ -1,27 +1,14 @@
-from tkinter import N
-import pandas as pd
-import matplotlib.pyplot as plt
-import pprint
-from hungarian_algorithm import algorithm
 import random
-import collections
+import pandas as pd
 
 from program import Program
 from student import Student
-cat1 = {} #key:presentation, value: names of people attending
-students = {}
 #reads all the files given
 all_students = pd.read_csv("All Students.csv") # Emails of all the students
-preference_responses = pd.read_csv("Preference Responses.csv") # preferences of the students
+preference_responses = pd.read_csv("Responses.csv") # preferences of the students
 program_data = pd.read_csv("Program Data.csv") # Data of each program and what happens
 presenters = pd.read_csv("Presenters.csv") # emails of the presenters
 student_choices = {} #creates a dictionary to store the student assignments
-
-#prints all the dataframes and their types
-
-pd.set_option('display.max_rows', None)
-pr = preference_responses.sort_values(by=['What grade are you in?'])
-pr.to_csv("Preference Responses.csv", index=False)
 
 #formats the data and gets the final list of just the students that did not sign up
 #make all values in 'Email'column in all_students lowercase
@@ -31,15 +18,15 @@ for column in all_students.columns:
 for column in presenters.columns:
     presenters['Email'] = presenters['Email'].str.lower()
 #delete all instances of values that are in 'presenters' from 'all_students'
-#all_students = all_students[~all_students['Email'].isin(presenters['Email'])]
+all_students = all_students[~all_students['Email'].isin(presenters['Email'])]
 #save all_students to a new csv file
 #all_students.to_csv("All Students.csv", index=False)
-#make all values in "Email" column in 'preference responses' lowercase
+
 for column in preference_responses.columns:
     preference_responses['Email'] = preference_responses['Email'].str.lower()
 
-for column in presenters.columns:
-    presenters['Email'] = presenters['Email'].str.lower()
+#for column in presenters.columns:
+#    presenters['Email'] = presenters['Email'].str.lower()
 
 programs = []
 for i in range(len(program_data)):
@@ -48,9 +35,7 @@ for i in range(len(program_data)):
 
 students =[]
 for i in range(len(all_students)):
-    #print(i)
-    student = Student(all_students['Email'][i].lower(),all_students['Last'][i], all_students['First'][i])
-    #print(student.email)
+    student = Student(all_students['Email'][i].lower(),all_students['Last_Name'][i], all_students['First_Name'][i])
     if student.email.lower() in presenters.values:
         student.presenter = True
     if student.email.lower() in preference_responses.values:
@@ -60,8 +45,8 @@ for i in range(len(all_students)):
         class2 = [preference_responses['What is your 1st choice session?.1'][row], preference_responses['What is your 2nd choice session?.1'][row], preference_responses['What is your 3rd choice session?.1'][row], preference_responses['What is your 4th choice session?.1'][row], preference_responses['What is your 5th choice session?.1'][row]]
         class3 = [preference_responses['What is your 1st choice session?.2'][row], preference_responses['What is your 2nd choice session?.2'][row], preference_responses['What is your 3rd choice session?.2'][row], preference_responses['What is your 4th choice session?.2'][row], preference_responses['What is your 5th choice session?.2'][row]]
         class4 = [preference_responses['What is your 1st choice session?.3'][row], preference_responses['What is your 2nd choice session?.3'][row], preference_responses['What is your 3rd choice session?.3'][row], preference_responses['What is your 4th choice session?.3'][row], preference_responses['What is your 5th choice session?.3'][row]]
-        student.choices = [class1, class2,class3,class4]
-
+        class5 = [preference_responses['What is your 1st choice session?.4'][row], preference_responses['What is your 2nd choice session?.4'][row], preference_responses['What is your 3rd choice session?.4'][row], preference_responses['What is your 4th choice session?.4'][row], preference_responses['What is your 5th choice session?.4'][row]]
+        student.choices = [class1,class2,class3,class4,class5]
     students.append(student)
 
 students_no_pres = []
@@ -69,9 +54,11 @@ for s in students:
     if s.choices and s.presenter == False:
         students_no_pres.append(s)
 
+for x in students:
+    print(x.choices)
 def find_program(id):
     for p in programs:
-        if p.program_id == id:
+        if p.title == id:
             return p
 
     return None
@@ -140,9 +127,6 @@ for x in students: # get the distribution of presenters,
 # Give everybody their first-choice courses.  If any are oversubscribed, 
 # then randomly pick a subset to get in and assign those people 
 # their second-choice course, repeating as necessary.
-for x in students:
-    pass
-    #print(x.choices)
 
 for person in students_no_pres: 
     first_choice = person.choices[0][0] # get the first choice of the student

@@ -1,560 +1,355 @@
-Classyear,UserID,Email,Last,First,Nickname
-2017,KAylor,KAylor@raleighcharterhs.org,Aylor,Kathryn,
-2018,YAbusalah,YAbusalah@raleighcharterhs.org,Abusalah,Yasmin,
-2018,NAdusumilli,NAdusumilli@raleighcharterhs.org,Adusumilli,Nithya,
-2018,KAliasghari,KAliasghari@raleighcharterhs.org,Aliasghari,Kyarash,Kya
-2018,MAlivio,MAlivio@raleighcharterhs.org,Alivio,Martin,
-2018,DAnderson,DAnderson@raleighcharterhs.org,Anderson,Daija,
-2018,SAwan,SAwan@raleighcharterhs.org,Awan,Sara,
-2018,TBarker,TBarker@raleighcharterhs.org,Barker,Daniel,Thomas
-2018,SBasu,SBasu@raleighcharterhs.org,Basu,Sayak,
-2018,SBattula,SBattula@raleighcharterhs.org,Battula,Saiaryaman,
-2018,NBenjamin,NBenjamin@raleighcharterhs.org,Benjamin,Noah,
-2018,NBerinson,NBerinson@raleighcharterhs.org,Berinson,Nicholas,Nick
-2018,NBerney,NBerney@raleighcharterhs.org,Berney,Nathaniel,Nate
-2018,DBhattaram,Dbhattaram@raleighcharterhs.org,Bhattaram,Dhruv,
-2018,MBrna,MBrna@raleighcharterhs.org,Brna,Madison,
-2018,SBrodie,SBrodie@raleighcharterhs.org,Brodie,Shamar,
-2018,JBronack,JBronack@raleighcharterhs.org,Bronack,Jackson,
-2018,PBuchanan,PBuchanan@raleighcharterhs.org,Buchanan,Pearson,
-2018,MBudayr,MBudayr@raleighcharterhs.org,Budayr,Maya,
-2018,DCandiloro,DCandiloro@raleighcharterhs.org,Candiloro,Dakota,
-2018,ECannon,ECannon@raleighcharterhs.org,Cannon,Eryn,
-2018,BChaudhari,BChaudhari@raleighcharterhs.org,Chaudhari,Bhavin,
-2018,ECheung,ECheung@raleighcharterhs.org,Cheung,Enoch,
-2018,RCoats,RCoats@raleighcharterhs.org,Coats,Ryan,
-2018,JColes,JColes@raleighcharterhs.org,Coles,Jessica,
-2018,HCox,HCox@raleighcharterhs.org,Cox,Hailey,
-2018,TDameron,TDameron@raleighcharterhs.org,Dameron,Trent,
-2018,ADas,ADas@raleighcharterhs.org,Das,Arpita,
-2018,WDaughtridge,WDaughtridge@raleighcharterhs.org,Daughtridge,William,
-2018,KDegraffenreid,KDegraffenreid@raleighcharterhs.org,Degraffenreid,Kari,
-2018,CDenning,CDenning@raleighcharterhs.org,Denning,Catherine,
-2018,ADeWalle,ADeWalle@raleighcharterhs.org,DeWalle,Alexander,Alex
-2018,DDiSerafino,DDiSerafino@raleighcharterhs.org,Diserafino,Andrew,Drew
-2018,ADugan,ADugan@raleighcharterhs.org,Dugan,Ashley,
-2018,LDunham,LDunham@raleighcharterhs.org,Dunham,Laurel,
-2018,GEarp,GEarp@raleighcharterhs.org,Earp,Gracyn,
-2018,ALEason,ALEason@raleighcharterhs.org,Eason,Amelia,
-2018,ASEberwein,ASEberwein@raleighcharterhs.org,Eberwein,Allison,
-2018,LEdwards,LEdwards@raleighcharterhs.org,Edwards,Leah,Layah
-2018,DErb,DErb@raleighcharterhs.org,Erb,Daniel,Dan
-2018,CEstrada,CEstrada@raleighcharterhs.org,Estrada,Nicolas,Cole
-2018,WEstrada,WEstrada@raleighcharterhs.org,Estrada,William,Edward
-2018,HFatool,HFatool@raleighcharterhs.org,Fatool,Hannah,
-2018,JFisher,JFisher@raleighcharterhs.org,Fisher,Joseph,
-2018,KFoland,KFoland@raleighcharterhs.org,Foland,Kailin,
-2018,AGaines,AGaines@raleighcharterhs.org,Gaines,Alexander,Alex
-2018,LGall,LGall@raleighcharterhs.org,Gall,Leah,
-2018,PGerber,PGerber@raleighcharterhs.org,Gerber,Patrick,
-2018,AGil,AGil@raleighcharterhs.org,Gil,Sebin,Andrew
-2018,EGlover,EGlover@raleighcharterhs.org,Glover,Emma,
-2018,SGreene,SGreene@raleighcharterhs.org,Greene,Shannon,
-2018,AGresham,AGresham@raleighcharterhs.org,Gresham,Ann Marie,
-2018,MHaider,MHaider@raleighcharterhs.org,Haider,Mohsin,
-2018,BHale,BHale@raleighcharterhs.org,Hale,Bianca,
-2018,JHayden-Lowe,JHayden-Lowe@raleighcharterhs.org,Hayden-Lowe,Jasmine,
-2018,JHenderson,JHenderson@raleighcharterhs.org,Henderson,Jackson,
-2018,AHeyward,AHeyward@raleighcharterhs.org,Heyward,Austin,
-2018,KHill,KHill@raleighcharterhs.org,Hill,Kylon,Ky
-2018,EHowe,EHowe@raleighcharterhs.org,Howe,Emma,
-2018,KIyer,KIyer@raleighcharterhs.org,Iyer,Keerthik,
-2018,AJuneja,AJuneja@raleighcharterhs.org,Juneja,Arjun,
-2018,IKabra,IKabra@raleighcharterhs.org,Kabra,Isha,
-2018,KKanjia,KKanjia@raleighcharterhs.org,Kanjia,Kunj,
-2018,EKerr,EKerr@raleighcharterhs.org,Kerr,Esme,
-2018,lKhasawneh,lKhasawneh@raleighcharterhs.org,Khasawneh,Laith,
-2018,BKing,BKing@raleighcharterhs.org,King,Blair,
-2018,IKing,IKing@raleighcharterhs.org,King,Isabella,
-2018,MKing,MKing@raleighcharterhs.org,King,Michael,
-2018,BKipps,BKipps@raleighcharterhs.org,Kipps,Benjamin,Ben
-2018,CKoonce,CKoonce@raleighcharterhs.org,Koonce,Calvin,
-2018,AKuang,AKuang@raleighcharterhs.org,Kuang,Athena,
-2018,ALane,ALane@raleighcharterhs.org,Lane,April,
-2018,CLe,CLe@raleighcharterhs.org,Le,Caroline Mai-Lan,Caroline
-2018,TLeibert,TLeibert@raleighcharterhs.org,Leibert,Trevor,
-2018,JLevy,JLevy@raleighcharterhs.org,Levy,Jenna,
-2018,ALi,ALi@raleighcharterhs.org,Li,Andrew,
-2018,BLiu,BLiu@raleighcharterhs.org,Liu,Benson,
-2018,WLu,WLu@raleighcharterhs.org,Lu,Warren,
-2018,ELynn,ELynn@raleighcharterhs.org,Lynn,Emily,
-2018,SnMarivada,SnMarivada@raleighcharterhs.org,Marivada,Snigdha,
-2018,Jmartinez,Jmartinez@raleighcharterhs.org,Martinez,Jack,
-2018,CMcCabe,CMcCabe@raleighcharterhs.org,McCabe,Christopher,Chris
-2018,CMcCord,CMcCord@raleighcharterhs.org,McCord,Clara,
-2018,LMeeks,LMeeks@raleighcharterhs.org,Meeks,Levi,
-2018,FMehlenbacher,FMehlenbacher@raleighcharterhs.org,Mehlenbacher,Frances,
-2018,RMehta,RMehta@raleighcharterhs.org,Mehta,Raj,
-2018,BMittal,BMittal@raleighcharterhs.org,Mittal,Beyla,
-2018,NMoghazi,NMoghazi@raleighcharterhs.org,Moghazi,Nada,
-2018,LMohd,LMohd@raleighcharterhs.org,Mohd,Lara,
-2018,MMohd,MMohd@raleighcharterhs.org,Mohd,Mohammad,
-2018,NMoore,NMoore@raleighcharterhs.org,Moore,Nicholas,Nick
-2018,TMMoore,TMMoore@raleighcharterhs.org,Moore,Thomas,
-2018,MMorray,MMorray@raleighcharterhs.org,Morray,Mariama,
-2018,MMurray,MMurray@raleighcharterhs.org,Murray,Madeleine,
-2018,PMvovi,PMvovi@raleighcharterhs.org,Mvovi,Plamedi,
-2018,LMyers,LMyers@raleighcharterhs.org,Myers,Laurel,
-2018,ANelson,ANelson@raleighcharterhs.org,Nelson,Anna,
-2018,KDNelson,KDNelson@raleighcharterhs.org,Nelson,Kansas,
-2018,ACOneill,ACOneill@raleighcharterhs.org,O'Neill,Ann,Annie
-2018,BOwusu,BOwusu@raleighcharterhs.org,Owusu,Bubune,
-2018,CPadgett,CPadgett@raleighcharterhs.org,Padgett,Caleb,
-2018,SParsons,SParsons@raleighcharterhs.org,Parsons,Sydney,
-2018,SPatel,SPatel@raleighcharterhs.org,Patel,Simran,
-2018,ERPeck,ERPeck@raleighcharterhs.org,Peck,Emma,
-2018,KPeek,KPeek@raleighcharterhs.org,Peek,Karl,
-2018,NPeri,NPeri@raleighcharterhs.org,Peri,Naishadha,
-2018,EPerkinson,EPerkinson@raleighcharterhs.org,Perkinson,Erin,
-2018,BPerrin,BPerrin@raleighcharterhs.org,Perrin,Benjamin,Ben
-2018,EPumer,EPumer@raleighcharterhs.org,Pumer,Emily,
-2018,JRaimundo,JRaimundo@raleighcharterhs.org,Raimundo,Jake,
-2018,JRamadurai,JRamadurai@raleighcharterhs.org,Ramadurai,Janani,
-2018,NRegensburger,NRegensburger@raleighcharterhs.org,Regensburger,Natya,
-2018,KSchauss,KSchauss@raleighcharterhs.org,Schauss,Katrin,Kate
-2018,SJShah,SJShah@raleighcharterhs.org,Shah,Sonam,
-2018,HShankin,HShankin@raleighcharterhs.org,Shankin,Holly,
-2018,JShockley,JShockley@raleighcharterhs.org,Shockley,Jaydon,
-2018,SSiegert,SSiegert@raleighcharterhs.org,Siegert,Steven,
-2018,CSlayton,CSlayton@raleighcharterhs.org,Slayton,Christian,
-2018,MKSmith,MKSmith@raleighcharterhs.org,Smith,Madison,Maddie
-2018,CSockin,CSockin@raleighcharterhs.org,Sockin,Caitlin,
-2018,ASpitz,ASpitz@raleighcharterhs.org,Spitz,Adelaide,Addie
-2018,TSteckmann,TSteckmann@raleighcharterhs.org,Steckmann,Thomas,
-2018,BStradling,BStradling@raleighcharterhs.org,Stradling,Benjamin,
-2018,ShSubramanian,ShSubramanian@raleighcharterhs.org,Subramanian,Shravan,
-2018,ASudhakar,ASudhakar@raleighcharterhs.org,Sudhakar,Aparna,
-2018,ESutich,ESutich@raleighcharterhs.org,Sutich,Emma,
-2018,JTrathen,JTrathen@raleighcharterhs.org,Trathen,John,Jack
-2018,Htseng,Htseng@raleighcharterhs.org,Tseng,Harrison,
-2018,EWacaser,EWacaser@raleighcharterhs.org,Wacaser,Ethan,
-2018,GWagner,GWagner@raleighcharterhs.org,Wagner,Grant,
-2018,LaWang,LaWang@raleighcharterhs.org,Wang,Landon,
-2018,JWeng,JWeng@raleighcharterhs.org,Weng,Justin,
-2018,AWhalen,AWhalen@raleighcharterhs.org,Whalen,Aislinn,
-2018,AWhitfield,AWhitfield@raleighcharterhs.org,Whitfield,Alexander,Alex
-2018,CWillet,CWillet@raleighcharterhs.org,Willett,Candace,
-2018,ERWilliams,ERWilliams@raleighcharterhs.org,Williams,Eloise,
-2018,SWillis,SWillis@raleighcharterhs.org,Willis,Sydney,
-2018,AWolff,AWolff@raleighcharterhs.org,Wolff,Anna,
-2018,AlYuan,AlYuan@raleighcharterhs.org,Yuan,Allen,
-2019,RMAlmasian,RMAlmasian@raleighcharterhs.org,Almasian,Rose,
-2019,MAsfari,MAsfari@raleighcharterhs.org,Asfari,Maryam,
-2019,AAyesh,AAyesh@raleighcharterhs.org,Ayesh,Ahmad,
-2019,BBalint-Kurti,BBalint-Kurti@raleighcharterhs.org,Balint-Kurti,Benajmin,Ben
-2019,WJBarnes,WJBarnes@raleighcharterhs.org,Barnes,Wyatt,
-2019,WBlackburn,WBlackburn@raleighcharterhs.org,Blackburn,William,Will
-2019,DBonifant,DBonifant@raleighcharterhs.org,Bonifant,Daisy Grace,Daisy
-2019,EBooker,EBooker@raleighcharterhs.org,Booker,Ella,
-2019,MBoutayba,MBoutayba@raleighcharterhs.org,Boutayba,Mohamed,
-2019,LBradley,LBradley@raleighcharterhs.org,Bradley,Lauren,
-2019,JLBrodie,JLBrodie@raleighcharterhs.org,Brodie,Jared,
-2019,CBross,CBross@raleighcharterhs.org,Bross,Colin,
-2019,ABusick,ABusick@raleighcharterhs.org,Busick,Avery,
-2019,PCharvu,PCharvu@raleighcharterhs.org,Charvu,Pranav,
-2019,KCorley,KCorley@raleighcharterhs.org,Corley,Kelly,
-2019,HCurtis,HCurtis@raleighcharterhs.org,Curtis,Heidi,
-2019,MDaramola,MDaramola@raleighcharterhs.org,Daramola,Michael,
-2019,SMDarwish,SMDarwish@raleighcharterhs.org,Darwish,Summer,
-2019,DDavis,DDavis@raleighcharterhs.org,Davis,Dabreon,
-2019,GDavis,GDavis@raleighcharterhs.org,Davis,Grady,
-2019,Mdeng,MDeng@raleighcharterhs.org,Deng,Margaret,
-2019,JDexter,JDexter@raleighcharterhs.org,Dexter,Joshua,
-2019,KDonovan,KDonovan@raleighcharterhs.org,Donovan,Kaitlin,Katie
-2019,IDummer,IDummer@raleighcharterhs.org,Dummer,Isabelle,
-2019,RDutta,RDutta@raleighcharterhs.org,Dutta,Anamitraa,Roumi
-2019,AEasley,AEasley@raleighcharterhs.org,Easley,Adam,
-2019,SEdmondson,SEdmondson@raleighcharterhs.org,Edmondson,Sarah,
-2019,SElam,SElam@raleighcharterhs.org,Elam,Samuel,Sam
-2019,SEshunDanquah,SEshunDanquah@raleighcharterhs.org,Eshun Danquah,Samuel,Sam
-2019,MFlorimonte,MFlorimonte@raleighcharterhs.org,Florimonte,Mariella,
-2019,CFoley,CFoley@raleighcharterhs.org,Foley,Charlotte,
-2019,AFortunato,AFortunato@raleighcharterhs.org,Fortunato,Anna,
-2019,CFrein,CFrein@raleighcharterhs.org,Frein,Carolyn,
-2019,ARFristoe,ARFristoe@raleighcharterhs.org,Fristoe,Angela,
-2019,AGambardella,AGambardella@raleighcharterhs.org,Gambardella,Anna,
-2019,RGan,RGan@raleighcharterhs.org,Gan,Robert,
-2019,AGanesan,AGanesan@raleighcharterhs.org,Ganesan,Aravind,
-2019,EGibson,EGibson@raleighcharterhs.org,Gibson,Emma,
-2019,AGlatthaar,Aglatthaar@raleighcharterhs.org,Glatthaar,Anna,Anna Blake
-2019,Kgordon,KGordon@raleighcharterhs.org,Gordon,Knox,
-2019,GGreene,GGreene@raleighcharterhs.org,Greene,Grace,
-2019,MGreene,MGreene@raleighcharterhs.org,Greene,Morgan,
-2019,EGreig,EGreig@raleighcharterhs.org,Greig,Erin,
-2019,AHager,AHager@raleighcharterhs.org,Hager,Adam,
-2019,NHames,NHames@raleighcharterhs.org,Hames,Nicholas,
-2019,IHancock,IHancock@raleighcharterhs.org,Hancock,Isaac,
-2019,EHannon,EHannon@raleighcharterhs.org,Hannon,Emily,
-2019,GHartman,GHartman@raleighcharterhs.org,Hartman,Gavin,
-2019,TWHayes,TWHayes@raleighcharterhs.org,Hayes,Travis,
-2019,JHershfeld,JHershfeld@raleighcharterhs.org,Hershfeld,John,Emerson
-2019,KEHill,KEHill@raleighcharterhs.org,Hill,Kenan,
-2019,SHuckins,SHuckins@raleighcharterhs.org,Huckins,Silas,
-2019,MHuemmer,MHuemmer@raleighcharterhs.org,Huemmer,Mikala,
-2019,CHuguely,CHuguely@raleighcharterhs.org,Huguely,Caitlin,
-2019,HJackson,HJackson@raleighcharterhs.org,Jackson,Henry,
-2019,KJain,KJain@raleighcharterhs.org,Jain,Kush,
-2019,NJain,NJain@raleighcharterhs.org,Jain,Nupur,
-2019,KJames,KJames@raleighcharterhs.org,James,Karina,
-2019,CCJones,CCJones@raleighcharterhs.org,Jones,Christina,
-2019,NJoshi,NJoshi@raleighcharterhs.org,Joshi,Nikita,
-2019,AKadhim,AKadhim@raleighcharterhs.org,Kadhim,Adam,
-2019,RKanjia,RKanjia@raleighcharterhs.org,Kanjia,Riya,
-2019,KKashyap,KKashyap@raleighcharterhs.org,Kashyap,Kaathyayini,
-2019,FZKhaja,FZKhaja@raleighcharterhs.org,Khaja,Farzan,
-2019,BKirby,BKirby@raleighcharterhs.org,Kirby,Brittany,
-2019,PKoenig,PKoenig@raleighcharterhs.org,Koenig,Patrick,
-2019,SKoning,SKoning@raleighcharterhs.org,Koning,Silas,
-2019,CKrieman,CKrieman@raleighcharterhs.org,Krieman,Caroline,
-2019,PLane,PLane@raleighcharterhs.org,Lane,Peter,
-2019,LLeveque,LLeveque@raleighcharterhs.org,Leveque,Ludmila,
-2019,CALewis,CALewis@raleighcharterhs.org,Lewis,Cameron,
-2019,CLiang,CLiang@raleighcharterhs.org,Liang,Claire,
-2019,JLindyberg,JLindyberg@raleighcharterhs.org,Lindyberg,Jonathan,Jack
-2019,PLipetzky,PLipetzky@raleighcharterhs.org,Lipetzky,Paul,
-2019,KLiu,KLiu@raleighcharterhs.org,Liu,Katie,
-2019,BLotz,BLotz@raleighcharterhs.org,Lotz,Gabriella,Brie
-2019,SMacomber,SMacomber@raleighcharterhs.org,Macomber,Sophia,
-2019,AMahajan,AMahajan@raleighcharterhs.org,Mahajan,Adya,
-2019,AManhass,AManhass@raleighcharterhs.org,Manhass,Abhishek,Abhi
-2019,JMarkham,JMarkham@raleighcharterhs.org,Markham,Joshua,Josh
-2019,JMarshall,JMarshall@raleighcharterhs.org,Marshall,Jonathan,
-2019,WMarshall,WMarshall@raleighcharterhs.org,Marshall,Wesley,
-2019,CMcClure,CMcClure@raleighcharterhs.org,McClure,Camryn,
-2019,DMensah,DMensah@raleighcharterhs.org,Mensah,Darren,
-2019,AMeyerhoffer,AMeyerhoffer@raleighcharterhs.org,Meyerhoffer,Alissa,
-2019,AAMohamed,AAMohamed@raleighcharterhs.org,Mohamed,Abdirahman,Abdi
-2019,LMurray,LMurray@raleighcharterhs.org,Murray,Lucy,
-2019,SNagaranthal,SNagaranthal@raleighcharterhs.org,Nagaranthal,Sanoj,
-2019,SNanduri,SNanduri@raleighcharterhs.org,Nanduri,Srikar,
-2019,TNanugonda,TNanugonda@raleighcharterhs.org,Nanugonda,Thanujeet,TJ
-2019,ANeyhart,ANeyhart@raleighcharterhs.org,Neyhart,Aryana,
-2019,KParker,KParker@raleighcharterhs.org,Parker,Kana,
-2019,EPatel,EPatel@raleighcharterhs.org,Patel,Eshna,
-2019,SPatil,SPatil@raleighcharterhs.org,Patil,Sarthi,
-2019,IPatnaik,IPatnaik@raleighcharterhs.org,Patnaik,Isha,
-2019,CPerez,CPerez@raleighcharterhs.org,Perez,Christobal,Chris
-2019,APhilips,APhilips@raleighcharterhs.org,Philips,Max,Asher
-2019,SPowell,SPowell@raleighcharterhs.org,Powell,Steven,
-2019,KPowers,KPowers@raleighcharterhs.org,Powers,Keenan,
-2019,APritchard,APritchard@raleighcharterhs.org,Pritchard,Alexandra,Alex
-2019,VRavichandran,VRavichandran@raleighcharterhs.org,Ravichandran,Vinayak,
-2019,IRencibia,IRencibia@raleighcharterhs.org,Rencibia,Isabella,Izzy
-2019,ERowe,ERowe@raleighcharterhs.org,Rowe,Emma,
-2019,JRuiz,JRuiz@raleighcharterhs.org,Ruiz,Jacqueline,Jackie
-2019,GRusso,GRusso@raleighcharterhs.org,Russo,Gianna,
-2019,TSalman,TSalman@raleighcharterhs.org,Salman,Taj,
-2019,DSang,DSang@raleighcharterhs.org,Sang,Daniel,
-2019,LSatisky,LSatisky@raleighcharterhs.org,Satisky,Luke,
-2019,MSawatzky,MSawatzky@raleighcharterhs.org,Sawatzky,Megan,
-2019,JASchuster,JASchuster@raleighcharterhs.org,Schuster,Jacob,
-2019,GScott,GScott@raleighcharterhs.org,Scott,Gillian,
-2019,RScrudato,RScrudato@raleighcharterhs.org,Scrudato,Rachel,
-2019,MAShah,MAShah@raleighcharterhs.org,Shah,Maandvi,
-2019,ASharma,ASharma@raleighcharterhs.org,Sharma,Arya,
-2019,NShearon,NShearon@raleighcharterhs.org,Shearon,Nicole,
-2019,NShin,NShin@raleighcharterhs.org,Shin,Nuria,
-2019,ASivayogan,ASivayogan@raleighcharterhs.org,Sivayogan,Ashwin,
-2019,JSlater,JSlater@raleighcharterhs.org,Slater,Julia,
-2019,BSoberanis,BSoberanis@raleighcharterhs.org,Soberanis Chavez,Britanny,
-2019,JSommers,JSommers@raleighcharterhs.org,Sommers,Jackson,
-2019,MEStewart,MEStewart@raleighcharterhs.org,Stewart,Mary,
-2019,IStrother,IStrother@raleighcharterhs.org,Strother,Isaiah,
-2019,SSun,SSun@raleighcharterhs.org,Sun,Sophie,
-2019,ESwenson,ESwenson@raleighcharterhs.org,Swenson,Eric,
-2019,NTherien,NTherien@raleighcharterhs.org,Therien,Noel,
-2019,BThiele,BThiele@raleighcharterhs.org,Thiele,Brodie,
-2019,BThomas,BThomas@raleighcharterhs.org,Thomas,Benjamin,Ben
-2019,WThompson,WThompson@raleighcharterhs.org,Thompson,Wyatt,Wheeler
-2019,STiwari,STiwari@raleighcharterhs.org,Tiwari,Shivangi,Mitthu
-2019,ATomei,ATomei@raleighcharterhs.org,Tomei,Andrew,
-2019,STsynkov,STsynkov@raleighcharterhs.org,Tsynkov,Alexander,Sasha
-2019,SVaka,SVaka@raleighcharterhs.org,Vaka,Sowmika,
-2019,NVangipurapu,NVangipurapu@raleighcharterhs.org,Vangipurapu,Neha,
-2019,AWatson,AWatson@raleighcharterhs.org,Watson,Andrew,
-2019,DWhite,DWhite@raleighcharterhs.org,White,Andrew,Drew
-2019,MWhite,MWhite@raleighcharterhs.org,White,Mary,
-2019,ACWilliams,ACWilliams@raleighcharterhs.org,Williams,Aaron,
-2019,AWnorowski,AWnorowski@raleighcharterhs.org,Wnorowski,Alicia,
-2019,MWoodburn,MWoodburn@raleighcharterhs.org,Woodburn,Margaret,Meg
-2019,CZundel,CZundel@raleighcharterhs.org,Zundel,Caroline,
-2020,AAbbott,AAbbott@raleighcharterhs.org,Abbott,Alexa,
-2020,JAbplanalp,JAbplanalp@raleighcharterhs.org,Abplanalp,John,Jack
-2020,AAdams,AAdams@raleighcharterhs.org,Adams,Anna,
-2020,SAfzal,SAfzal@raleighcharterhs.org,Afzal,Fatima,Sidra
-2020,AAhn,AAhn@raleighcharterhs.org,Ahn,Alexander,Alex
-2020,HAlpert,HAlpert@raleighcharterhs.org,Alpert,Hannah,
-2020,EAmoroso,EAmoroso@raleighcharterhs.org,Amoroso,Elizabeth,
-2020,DMAnderson,DMAnderson@raleighcharterhs.org,Anderson,Dahlen,
-2020,KAron,KAron@raleighcharterhs.org,Aron,Kyle,
-2020,KAyala,KAyala@raleighcharterhs.org,Ayala,Kaitlan,
-2020,AAyerbe,AAyerbe@raleighcharterhs.org,Ayerbe,Alexander,Alex
-2020,JBenjamin,JBenjamin@raleighcharterhs.org,Benjamin,Julia,
-2020,ABertles,ABertles@raleighcharterhs.org,Bertles,Ashley,
-2020,VBirla,VBirla@raleighcharterhs.org,Birla,Vedika,
-2020,SSBodavula,SSBodavula@raleighcharterhs.org,Bodavula,Soumya,
-2020,SBourne,SBourne@raleighcharterhs.org,Bourne,Sarah,
-2020,PBreidsprecher,PBreidsprecher@raleighcharterhs.org,Breidsprecher,Philipp,
-2020,HBrown,HBrown@raleighcharterhs.org,Brown,Harrison,
-2020,MBusick,MBusick@raleighcharterhs.org,Busick,Amelia,Mia
-2020,ECasey,ECasey@raleighcharterhs.org,Casey,Emma,
-2020,WCasey,WCasey@raleighcharterhs.org,Casey,William,Will
-2020,DCasillas,DCasillas@raleighcharterhs.org,Casillas,Dioselina,
-2020,JCaulfield,JCaulfield@raleighcharterhs.org,Caulfield,Jacqueline,
-2020,SChaudhary,SChaudhary@raleighcharterhs.org,Chaudhary,Sanjana,
-2020,JClougherty,JClougherty@raleighcharterhs.org,Clougherty,John,Jack
-2020,PCoimbatore,PCoimbatore@raleighcharterhs.org,Coimbatore,Pranav,
-2020,KConger,KConger@raleighcharterhs.org,Conger,Kendall,
-2020,ACongiusta,ACongiusta@raleighcharterhs.org,Congiusta,Aelex,
-2020,MCongiusta,MCongiusta@raleighcharterhs.org,Congiusta,Matthew,
-2020,AsDagar,AsDagar@raleighcharterhs.org,Dagar,Ashmi,
-2020,FDahnoun,FDahnoun@raleighcharterhs.org,Dahnoun,Feras,
-2020,AnDas,AnDas@raleighcharterhs.org,Das,Ankita,
-2020,MDaughtridge,MDaughtridge@raleighcharterhs.org,Daughtridge,Meredith,
-2020,ADenning,ADenning@raleighcharterhs.org,Denning,Ashley,
-2020,JMDexter,JMDexter@raleighcharterhs.org,Dexter,Julia,
-2020,SDittman,SDittman@raleighcharterhs.org,Dittman,Shelby,
-2020,ADubach,ADubach@raleighcharterhs.org,Dubach,Anna,Anna Wesley
-2020,JPDugas,JPDugas@raleighcharterhs.org,Dugas,Jonathan,
-2020,HEllison,HEllison@raleighcharterhs.org,Ellison,Hannalee,
-2020,EEmbry,EEmbry@raleighcharterhs.org,Embry,Elijah,
-2020,KEsleeck,KEsleeck@raleighcharterhs.org,Esleeck,Katie,
-2020,SFelder,SFelder@raleighcharterhs.org,Felder,Shannon,
-2020,BFitzpatrick,BFitzpatrick@raleighcharterhs.org,Fitzpatrick,Benjamin,Ben
-2020,HFord,HFord@raleighcharterhs.org,Ford,Helen,
-2020,AFurr,AFurr@raleighcharterhs.org,Furr,Addison,Addy
-2020,MFurr,MFurr@raleighcharterhs.org,Furr,Mary,
-2020,TGantt,TGantt@raleighcharterhs.org,Gantt,Turner,
-2020,EGerber,EGerber@raleighcharterhs.org,Gerber,Emily,
-2020,AGhali,AGhali@raleighcharterhs.org,Ghali,Aditya,Adi
-2020,JGlatthaar,JGlatthaar@raleighcharterhs.org,Glatthaar,James,
-2020,CGoodwin,CGoodwin@raleighcharterhs.org,Goodwin,Connor,
-2020,BGower,BGower@raleighcharterhs.org,Gower,Brian,
-2020,JGreen,JGreen@raleighcharterhs.org,Green,Jacob,Jake
-2020,AGutierrez,AGutierrez@raleighcharterhs.org,Gutierrez,Alexander,
-2020,ZHansen,ZHansen@raleighcharterhs.org,Hansen,Zoe,
-2020,JHardy,JHardy@raleighcharterhs.org,Hardy,John,
-2020,MHartman,MHartman@raleighcharterhs.org,Hartman,Margaret,
-2020,BCHarvey,BCHarvey@raleighcharterhs.org,Harvey,Brian,
-2020,AHattab,AHattab@raleighcharterhs.org,Hattab,Abdulasalam,
-2020,Ahealey,Ahealey@raleighcharterhs.org,Healey,Aidan,
-2020,THester,THester@raleighcharterhs.org,Hester,Trey,
-2020,VIndugula,VIndugula@raleighcharterhs.org,Indugula,Varun,
-2020,DJackson,DJackson@raleighcharterhs.org,Jackson,David,
-2020,AJohn,AJohn@raleighcharterhs.org,John,Ashley,
-2020,LMJohnson,LMJohnson@raleighcharterhs.org,Johnson,Leo,
-2020,COJones,COJones@raleighcharterhs.org,Jones,Carly,
-2020,HKasawne,HKasawne@raleighcharterhs.org,Kasawne,Haithum,
-2020,GKeele,GKeele@raleighcharterhs.org,Keele,Grant,
-2020,DKim,DKim@raleighcharterhs.org,Kim,Dongha,David
-2020,AKipps,AKipps@raleighcharterhs.org,Kipps,Anna,
-2020,MKrishnamoorthy,MKrishnamoorthy@raleighcharterhs.org,Krishnamoorthy,Maya,
-2020,MKuttrus,MKuttrus@raleighcharterhs.org,Kuttrus,Max,
-2020,SLadhe,SLadhe@raleighcharterhs.org,Ladhe,Saloni,
-2020,KALane,KALane@raleighcharterhs.org,Lane,Kathleen,
-2020,KLawrence,KLawrence@raleighcharterhs.org,Lawrence,Kyle Alexander,Kyle
-2020,JLeser,JLeser@raleighcharterhs.org,Leser,Jacobson,Jake
-2020,ELettie,ELettie@raleighcharterhs.org,Lettie,Emma,
-2020,KLi,KLi@raleighcharterhs.org,Li,Karen,
-2020,SLohia,SLohia@raleighcharterhs.org,Lohia,Siddharth,Sidd
-2020,CLong,CLong@raleighcharterhs.org,Long,Charles,Charlie
-2020,HLong,HLong@raleighcharterhs.org,Long,Henry,
-2020,JMalone,JMalone@raleighcharterhs.org,Malone,John Walter,Joe
-2020,SMangum,SMangum@raleighcharterhs.org,Mangum,Sarah,
-2020,SMason,SMason@raleighcharterhs.org,Mason,Scott,Scout
-2020,DMcSorley,DMcSorley@raleighcharterhs.org,McSorley,Duncan,
-2020,PMeissner,PMeissner@raleighcharterhs.org,Meissner,Pierce,
-2020,DMiller,DMiller@raleighcharterhs.org,Miller,Dari',
-2020,RMiller,RMiller@raleighcharterhs.org,Miller,Rory,
-2020,EMoomaw,EMoomaw@raleighcharterhs.org,Moomaw,Eli,
-2020,DMyers,DMyers@raleighcharterhs.org,Myers,Duncan,
-2020,MOneill,MOneill@raleighcharterhs.org,O'Neill,Michael,Mike
-2020,ROgburn,ROgburn@raleighcharterhs.org,Ogburn,Reagan,
-2020,CKOmile,CKOmile@raleighcharterhs.org,Omile,Chelsea,
-2020,SPandey,SPandey@raleighcharterhs.org,Pandey,Somya,
-2020,BParangi,BParangi@raleighcharterhs.org,Parangi,Bijan,BJ
-2020,DPatel,DPatel@raleighcharterhs.org,Patel,Divya,
-2020,SaPatel,SaPatel@raleighcharterhs.org,Patel,Sahil,
-2020,APeart,APeart@raleighcharterhs.org,Peart,Amber,
-2020,MPeeler,MPeeler@raleighcharterhs.org,Peeler,Michael,
-2020,KPelton,KPelton@raleighcharterhs.org,Pelton,Kaden,
-2020,SPeri,SPeri@raleighcharterhs.org,Peri,Shaunak,
-2020,SPetchetti,SPetchetti@raleighcharterhs.org,Petchetti,Sampath,
-2020,RPhilips,RPhilips@raleighcharterhs.org,Philips,Remi,
-2020,RPilson,RPilson@raleighcharterhs.org,Pilson,Robert,
-2020,APumer,APumer@raleighcharterhs.org,Pumer,Allison,
-2020,ZRaimundo,ZRaimundo@raleighcharterhs.org,Raimundo,Zachary,
-2020,SSRao,SSRao@raleighcharterhs.org,Rao,Suraj,
-2020,SRhodes,SRhodes@raleighcharterhs.org,Rhodes,Sofia,
-2020,ARoberts,ARoberts@raleighcharterhs.org,Roberts,Andrew,Drew
-2020,JRobson,JRobson@raleighcharterhs.org,Robson,Jennifer,
-2020,CRodriguez,CRodriguez@raleighcharterhs.org,Rodriguez,Camila,Cami
-2020,SRuddarraju,SRuddarraju@raleighcharterhs.org,Ruddarraju,Saketh,
-2020,NSaini,NSaini@raleighcharterhs.org,Saini,Neil,
-2020,MSalman,MSalman@raleighcharterhs.org,Salman,Mustafa,
-2020,JMSchuster,JMSchuster@raleighcharterhs.org,Schuster,Jessica,
-2020,Esidor,Esidor@raleighcharterhs.org,Sidor,Evan,
-2020,AJSmith,AJSmith@raleighcharterhs.org,Smith,Ainsley,
-2020,PSpencer,PSpencer@raleighcharterhs.org,Spencer,Paige,
-2020,SSriperumbudur,SSriperumbudur@raleighcharterhs.org,Sriperumbudur,Shriya,
-2020,JStarbuck,JStarbuck@raleighcharterhs.org,Starbuck,Jason,
-2020,VStrickland,VStrickland@raleighcharterhs.org,Strickland,Victoria,
-2020,JSuggs,JSuggs@raleighcharterhs.org,Suggs,Jack,
-2020,MSuggs,MSuggs@raleighcharterhs.org,Suggs,Mark,
-2020,ZSwiger,ZSwiger@raleighcharterhs.org,Swiger,Zaine,
-2020,CTate,CTate@raleighcharterhs.org,Tate,Charlotte,
-2020,ARThomas,ARThomas@raleighcharterhs.org,Thomas,Anna,
-2020,CTiller,CTiller@raleighcharterhs.org,Tiller,Colin,
-2020,RUdeshi,RUdeshi@raleighcharterhs.org,Udeshi,Rohan,
-2020,AsUng,AsUng@raleighcharterhs.org,Ung,Ashley,
-2020,AVaidhyan,AVaidhyan@raleighcharterhs.org,Vaidhyan,Adithya,
-2020,GVaradarajan,GVaradarajan@raleighcharterhs.org,Varadarajan,Nikhilganeesh,Ganeesh
-2020,Bwalsh,Bwalsh@raleighcharterhs.org,Walsh,Isabelle,Kit
-2020,MWang,MWang@raleighcharterhs.org,Wang,Mark,
-2020,RWatkins,RWatkins@raleighcharterhs.org,Watkins,Riley,
-2020,MWedge,MWedge@raleighcharterhs.org,Wedge,Matthew,
-2020,JWells,JWells@raleighcharterhs.org,Wells,James,
-2020,BWilson,BWilson@raleighcharterhs.org,Wilson,Benjamin,Ben
-2020,JWitcher,JWitcher@raleighcharterhs.org,Witcher,James,J.P.
-2020,MWitcher,MWitcher@raleighcharterhs.org,Witcher,Michael,
-2020,AZachary,AZachary@raleighcharterhs.org,Zachary,Abby,
-2021,NAbe,NAbe@raleighcharterhs.org,Abe,Nozomi,
-2021,MAgrawal,MAgrawal@raleighcharterhs.org,Agrawal,Mudit,
-2021,JAlbert,JAlbert@raleighcharterhs.org,Albert,Jack,
-2021,LAronson,LAronson@raleighcharterhs.org,Aronson,Langdon,
-2021,AAwan,AAwan@raleighcharterhs.org,Awan,Ali,
-2021,TBaddour,TBaddour@raleighcharterhs.org,Baddour,Philip,Troy
-2021,JBalint-Kurti,JBalint-Kurti@raleighcharterhs.org,Balint-Kurti,Jack,
-2021,ABell,ABell@raleighcharterhs.org,Bell,Addison,
-2021,KBlackman,KBlackman@raleighcharterhs.org,Blackman,Kelly,
-2021,LCBoehling,LCBoehling@raleighcharterhs.org,Boehling,Luke,
-2021,AWBoettcher,AWBoettcher@raleighcharterhs.org,Boettcher,Andrew,
-2021,DBradley,DBradley@raleighcharterhs.org,Bradley,Dylan,
-2021,PPBreidsprecher,PPBreidsprecher@raleighcharterhs.org,Breidsprecher,Patrick,
-2021,EBrna,EBrna@raleighcharterhs.org,Brna,Elliot,Elli
-2021,LBross,LBross@raleighcharterhs.org,Bross,Lea,
-2021,GSBrown,GSBrown@raleighcharterhs.org,Brown,Garrett,
-2021,RBryant,RBryant@raleighcharterhs.org,Bryant,Richard,Richie
-2021,MBuchanan,MBuchanan@raleighcharterhs.org,Buchanan,Margo,
-2021,HBudayr,HBudayr@raleighcharterhs.org,Budayr,Hashim,
-2021,GCanulli,GCanulli@raleighcharterhs.org,Canulli,Gianna,
-2021,ACharvu,ACharvu@raleighcharterhs.org,Charvu,Anvi,
-2021,JClauss,JClauss@raleighcharterhs.org,Clauss,Justin,
-2021,TCozzie,TCozzie@raleighcharterhs.org,Cozzie,Tyler,
-2021,ZCurtis,ZCurtis@raleighcharterhs.org,Curtis,Zoe,
-2021,ECusumano,ECusumano@raleighcharterhs.org,Cusumano,Eric,
-2021,SDaramola,SDaramola@raleighcharterhs.org,Daramola,Shanelle,
-2021,TDestasio,TDestasio@raleighcharterhs.org,Destasio,Talia,
-2021,ZDewalle,ZDewalle@raleighcharterhs.org,Dewalle,Zackary,Zack
-2021,DDolicker,DDolicker@raleighcharterhs.org,Dolicker,Daisy,
-2021,RDonovan,RDonovan@raleighcharterhs.org,Donovan,Rachel,
-2021,IElrantissi,IElrantissi@raleighcharterhs.org,Elrantissi,Iman,
-2021,MEstrada,MEstrada@raleighcharterhs.org,Estrada,Mary Hart,Ellison
-2021,NFoland,NFoland@raleighcharterhs.org,Foland,Nicholas,Nick
-2021,CGall,CGall@raleighcharterhs.org,Gall,Caroline,
-2021,MGall,MGall@raleighcharterhs.org,Gall,Melanie,
-2021,EGan,EGan@raleighcharterhs.org,Gan,Emma,
-2021,AGandecha,AGandecha@raleighcharterhs.org,Gandecha,Aneri,
-2021,MGarrin,MGarrin@raleighcharterhs.org,Garrin,Mason,
-2021,GGimpl,GGimpl@raleighcharterhs.org,Gimpl,Glen,
-2021,NGiraud,NGiraud@raleighcharterhs.org,Giraud,Nalaya,
-2021,MGopinath,MGopinath@raleighcharterhs.org,Gopinath,Madhumitha,
-2021,GGordon,GGordon@raleighcharterhs.org,Gordon,Gage,
-2021,AHaider,AHaider@raleighcharterhs.org,Haider,Aliya,
-2021,AHancock,AHancock@raleighcharterhs.org,Hancock,Asher,
-2021,PHannon,PHannon@raleighcharterhs.org,Hannon,Patrick,
-2021,KHenderson,KHenderson@raleighcharterhs.org,Henderson,Kate,
-2021,LHershfeld,LHershfeld@raleighcharterhs.org,Hershfeld,Olivia,Livy
-2021,EKHill,EKHill@raleighcharterhs.org,Hill,Emery,
-2021,AHouck,AHouck@raleighcharterhs.org,Houck,Avery,
-2021,ZHoward,ZHoward@raleighcharterhs.org,Howard,Zachary,Zack
-2021,RHurley,RHurley@raleighcharterhs.org,Hurley,Reagan,
-2021,JHurst,JHurst@raleighcharterhs.org,Hurst,Joshua,Josh
-2021,NJaber,NJaber@raleighcharterhs.org,Jaber,Noor,
-2021,DJeffries,DJeffries@raleighcharterhs.org,Jeffries,David,
-2021,Ajemerson,Ajemerson@raleighcharterhs.org,Jemerson,Allison,
-2021,GJoshi,GJoshi@raleighcharterhs.org,Joshi,Girija,
-2021,RKabra,RKabra@raleighcharterhs.org,Kabra,Riya,
-2021,JKeim,JKeim@raleighcharterhs.org,Keim,Joshua,Josh
-2021,LKing,LKing@raleighcharterhs.org,King,Liam,
-2021,SKing,SKing@raleighcharterhs.org,King,Sawyer,
-2021,MKlibson,MKlibson@raleighcharterhs.org,Klibson,Michael,Misha
-2021,AKochuba,AKochuba@raleighcharterhs.org,Kochuba,Andrew,A.J.
-2021,GKristianson,GKristianson@raleighcharterhs.org,Kristianson,Garret,
-2021,AZKuang,AZKuang@raleighcharterhs.org,Kuang,Alex,
-2021,SLahiri,SLahiri@raleighcharterhs.org,Lahiri,Sanhita,Missy
-2021,ELambert,ELambert@raleighcharterhs.org,Lambert,Evan,
-2021,DLane,DLane@raleighcharterhs.org,Lane,Diana,Camille
-2021,JLee,JLee@raleighcharterhs.org,Lee,Jeremiah,
-2021,BLeibert,BLeibert@raleighcharterhs.org,Leibert,Brendan,
-2021,JLeveque,JLeveque@raleighcharterhs.org,Leveque,Joshua,Josh
-2021,KLong,KLong@raleighcharterhs.org,Long,Kathryn,Katie
-2021,MLotz,MLotz@raleighcharterhs.org,Lotz,Mira,
-2021,JLyons,JLyons@raleighcharterhs.org,Lyons,Jewell,
-2021,HMacomber,HMacomber@raleighcharterhs.org,Macomber,Henry,
-2021,SMamidi,SMamidi@raleighcharterhs.org,Mamidi,Saadhvi,
-2021,AMankoff,AMankoff@raleighcharterhs.org,Mankoff,Ava,
-2021,ZMartin,ZMartin@raleighcharterhs.org,Martin,Za'Qui,
-2021,JMcNees,JMcNees@raleighcharterhs.org,McNees,Jeb,
-2021,KMcNees,KMcNees@raleighcharterhs.org,McNees,Kylie,
-2021,RMelia,RMelia@raleighcharterhs.org,Melia,Richard,
-2021,BMelin,BMelin@raleighcharterhs.org,Melin,Bastien,
-2021,EMeyerhoffer,EMeyerhoffer@raleighcharterhs.org,Meyerhoffer,Ethan,
-2021,NSMoghazi,NSMoghazi@raleighcharterhs.org,Moghazi,Noora,
-2021,ANagaraj,ANagaraj@raleighcharterhs.org,Nagaraj,Anirudh,Ani
-2021,KNagaraj,KNagaraj@raleighcharterhs.org,Nagaraj,Kartik,
-2021,EOakley,EOakley@raleighcharterhs.org,Oakley,Erin,
-2021,RPal,RPal@raleighcharterhs.org,Pal,Ranbir,
-2021,VPanchikarla,VPanchikarla@raleighcharterhs.org,Panchikarla,Vinitha,
-2021,KPender,KPender@raleighcharterhs.org,Pender,Kaylie,
-2021,CPilson,CPilson@raleighcharterhs.org,Pilson,Clare,
-2021,KPoole,KPoole@raleighcharterhs.org,Poole,Kaylyn,
-2021,SPradhan,SPradhan@raleighcharterhs.org,Pradhan,Summit,
-2021,LQi,LQi@raleighcharterhs.org,Qi,Lin,
-2021,CARamquist,CARamquist@raleighcharterhs.org,Ramquist,Charles,Charlie
-2021,RRapolu,RRapolu@raleighcharterhs.org,Rapolu,Ruhie,
-2021,DRaynor,DRaynor@raleighcharterhs.org,Raynor,Dillon,
-2021,SReichert,SReichert@raleighcharterhs.org,Reichert,Steven,
-2021,PRowan,PRowan@raleighcharterhs.org,Rowan,Parker,
-2021,HSalman,HSalman@raleighcharterhs.org,Salman,Hajira,
-2021,CSanders,CSanders@raleighcharterhs.org,Sanders,Cole,
-2021,BSantoianni,BSantoianni@raleighcharterhs.org,Santoianni,Brendan,
-2021,MSantoianni,MSantoianni@raleighcharterhs.org,Santoianni,Matteo,
-2021,ASanyal,ASanyal@raleighcharterhs.org,Sanyal,Aabir,
-2021,WSaperstein,WSaperstein@raleighcharterhs.org,Saperstein,Whit,
-2021,LSerino,LSerino@raleighcharterhs.org,Serino,Logan,
-2021,PSeshadri,PSeshadri@raleighcharterhs.org,Seshadri,Pratyush,
-2021,AShah,AShah@raleighcharterhs.org,Shah,Aqsae,
-2021,SShahA,SShahA@raleighcharterhs.org,Shah,Syed,
-2021,EKSharma,EKSharma@raleighcharterhs.org,Sharma,Ekartha,
-2021,LShehadeh,LShehadeh@raleighcharterhs.org,Shehadeh,Leen,
-2021,LSmith,LSmith@raleighcharterhs.org,Smith,Lily,
-2021,JSouthworth,JSouthworth@raleighcharterhs.org,Southworth,Jacob,
-2021,SSpitz,SSpitz@raleighcharterhs.org,Spitz,Serena,
-2021,JSpringle,JSpringle@raleighcharterhs.org,Springle,Jacob,
-2021,JSridhar,JSridhar@raleighcharterhs.org,Sridhar,Jayati,
-2021,SMSridharan,SMSridharan@raleighcharterhs.org,Sridharan,Smriti,
-2021,MStallings,MStallings@raleighcharterhs.org,Stallings,Megan,
-2021,JStevens,JStevens@raleighcharterhs.org,Stevens,Jacob,J.T.
-2021,CStewart,CStewart@raleighcharterhs.org,Stewart,Claire,
-2021,Ssurapaneni,Ssurapaneni@raleighcharterhs.org,Surapaneni,Suchitra,Suchi
-2021,ASutich,ASutich@raleighcharterhs.org,Sutich,Aliza,
-2021,KSwenson,KSwenson@raleighcharterhs.org,Swenson,Kayla,
-2021,EThomas,EThomas@raleighcharterhs.org,Thomas,Emma,
-2021,JJTrump,JJTrump@raleighcharterhs.org,Trump,Jackson,
-2021,JRTrump,JRTrump@raleighcharterhs.org,Trump,Jacob,
-2021,STucker,STucker@raleighcharterhs.org,Tucker,Samarria,Sammi
-2021,VTyler,VTyler@raleighcharterhs.org,Tyler,Vanessa,
-2021,AVatsavai,AVatsavai@raleighcharterhs.org,Vatsavai,Amulya,
-2021,KVick,KVick@raleighcharterhs.org,Vick,Katherine,Katie
-2021,MVick,MVick@raleighcharterhs.org,Vick,Michael,
-2021,MWallace,MWallace@raleighcharterhs.org,Wallace,Matthew,
-2021,CWatson,CWatson@raleighcharterhs.org,Watson,Caleb,
-2021,NWeinreb,NWeinreb@raleighcharterhs.org,Weinreb,Noa,
-2021,GWhalen,GWhalen@raleighcharterhs.org,Whalen,Griffin,
-2021,LWhite,LWhite@raleighcharterhs.org,White,Anne,Levering
-2021,NWilliams,NWilliams@raleighcharterhs.org,Williams,Nyeeya,
-2021,HWoodburn,HWoodburn@raleighcharterhs.org,Woodburn,Henry,
-2021,AWorlikar,AWorlikar@raleighcharterhs.org,Worlikar,Arkin,
-2021,SYeduri,SYeduri@raleighcharterhs.org,Yeduri,Sanath,
-2021,HYoung,HYoung@raleighcharterhs.org,Young,Hayden,
+LastFirst,Last_Name,First_Name,Advisory,grade_level,Email
+"Adams, Avery Leigh",Adams,Avery,Weaver,9,aladams@raleighcharterhs.org
+"Aghoram, Sneha",Aghoram,Sneha,Dyrdahl,9,saghoram@raleighcharterhs.org
+"Alapati, Rudra",Alapati,Rudra,Thelen,9,ralapati@raleighcharterhs.org
+"Anderson, Akilah Imani",Anderson,Akilah,Thelen,9,aanderson@raleighcharterhs.org
+"Arun, Saachi Varjai",Arun,Saachi,"Felder, J",9,sarun@raleighcharterhs.org
+"Baianonie, Qaasim Ahmed",Baianonie,Qaasim,Arcaro,9,qbaianonie@raleighcharterhs.org
+"Becker, Raley Dean",Becker,Raley,Arcaro,9,rbecker@raleighcharterhs.org
+"Bianes, Noah S",Bianes,Noah,Weaver,9,nbianes@raleighcharterhs.org
+"Bildikar, Archis Aniruddha",Bildikar,Archis,Weaver,9,abildikar@raleighcharterhs.org
+"Bisher, Abigail Ryan",Bisher,Abigail,Koch,9,abisher@raleighcharterhs.org
+"Bray, Emily Ava",Bray,Emily,Koch,9,ebray@raleighcharterhs.org
+"Breedlove, Alexandra Carly",Breedlove,Alexandra,Koch,9,abreedlove@raleighcharterhs.org
+"Bryant, Kabira",Bryant,Kabira,Koch,9,kbryant@raleighcharterhs.org
+"Budayr, Ahmad Abdulfattah",Budayr,Ahmad,"Felder, K",9,abudayr@raleighcharterhs.org
+"Campbell, Alaina Quinn",Campbell,Alaina,Arcaro,9,acampbell@raleighcharterhs.org
+"Cardaropoli, Michael Joseph",Cardaropoli,Michael,"Felder, K",9,mcardaropoli@raleighcharterhs.org
+"Ciriello, Nathan Christopher",Ciriello,Nathan,Cherveny,9,nciriello@raleighcharterhs.org
+"Cook, Victoria Fiona Lynn",Cook,Victoria,Arcaro,9,vcook@raleighcharterhs.org
+"Curtis, Noah Matthew",Curtis,Noah,Foster,9,ncurtis@raleighcharterhs.org
+"Darroch, Sterner James",Darroch,Sterner,Foster,9,sdarroch@raleighcharterhs.org
+"Dawadi, Nicole",Dawadi,Nicole,"Felder, J",9,ndawadi@raleighcharterhs.org
+"Delves, Mia Isabella",Delves,Mia,Koch,9,mdelves@raleighcharterhs.org
+"Denduluri, Aaditya Seshasai",Denduluri,Aaditya,"Felder, K",9,adenduluri@raleighcharterhs.org
+"Ding, Ethan Jeffrey",Ding,Ethan,Cherveny,9,eding@raleighcharterhs.org
+"Dingle, Jocelyn Lee",Dingle,Jocelyn,"Felder, J",9,jdingle@raleighcharterhs.org
+"Dingle, Patience Renee Kyagaza",Dingle,Patience,Thelen,9,pdingle@raleighcharterhs.org
+"Duggan, Ada Lindsay",Duggan,Ada,Martignoni,9,aduggan@raleighcharterhs.org
+"Dunn, Leina Germira",Dunn,Leina,Page,9,ldunn@raleighcharterhs.org
+"Dunn, Rachel Catherine",Dunn,Rachel,Ferrando,9,rdunn@raleighcharterhs.org
+"Edwards, Anne Frances",Edwards,Anne,Martignoni,9,aedwards@raleighcharterhs.org
+"Ejituwu, Chiara Ire Edward",Ejituwu,Chiara,Weaver,9,cejituwu@raleighcharterhs.org
+"Elder, Ethan James",Elder,Ethan,Martignoni,9,eelder@raleighcharterhs.org
+"Elias, Christian Joel",Elias,Christian,Martignoni,9,celias@raleighcharterhs.org
+"Ellinger, Holden Andrew",Ellinger,Holden,"Felder, J",9,hellinger@raleighcharterhs.org
+"Filenko, Olesia",Filenko,Olesia,Foster,9,ofilenko@raleighcharterhs.org
+"Flynn, Davis Matthew",Flynn,Davis,"Felder, J",9,dflynn@raleighcharterhs.org
+"Flynn, James Anthonlee",Flynn,James,"Felder, K",9,jflynn@raleighcharterhs.org
+"Glosser, Thomas Alexander",Glosser,Thomas,Gianini,9,tglosser@raleighcharterhs.org
+"Gomez, Isabel Aurora",Gomez,Isabel,Koch,9,igomez@raleighcharterhs.org
+"Gorman, Lily Josephine",Gorman,Lily,"Felder, K",9,lgorman@raleighcharterhs.org
+"Gowland, Margaret Grace",Gowland,Margaret,Russell,9,mgowland@raleighcharterhs.org
+"Gray, Matthew Evan",Gray,Matthew,"Felder, J",9,mgray@raleighcharterhs.org
+"Greenbaum, Tyson Bradley",Greenbaum,Tyson,Hess,9,tgreenbaum@raleighcharterhs.org
+"Gu, Lex Yuxuan",Gu,Lex,Grimes,9,lgu@raleighcharterhs.org
+"Halder, Tathagat",Halder,Tathagat,Grimes,9,thalder@raleighcharterhs.org
+"Harish, Varun Murari",Harish,Varun,Russell,9,vharish@raleighcharterhs.org
+"Healey, Thomas Declan",Healey,Thomas,Russell,9,thealey@raleighcharterhs.org
+"Hedrick, Gwyneth Leslie",Hedrick,Gwyneth,"Felder, K",9,ghedrick@raleighcharterhs.org
+"Hennessy, Kayla Jacklyn",Hennessy,Kayla,"Felder, K",9,khennessy@raleighcharterhs.org
+"Hinton, Robert Alan",Hinton,Robert,Chalifoux,9,rhinton@raleighcharterhs.org
+"Holtz, Logan D",Holtz,Logan,"Felder, J",9,lholtz@raleighcharterhs.org
+"Hu, Katie",Hu,Katie,Hess,9,khu@raleighcharterhs.org
+"Indla, Annie Nathania",Indla,Annie,Ferrando,9,aindla@raleighcharterhs.org
+"Ingledue, William Harrison",Ingledue,William,Montague,9,wingledue@raleighcharterhs.org
+"Irshad, Zainab Ziad",Irshad,Zainab,Newmark,9,zirshad@raleighcharterhs.org
+"Jain, Soham Bhavin",Jain,Soham,Montague,9,sjain@raleighcharterhs.org
+"Jones, Isabella Gabrielle",Jones,Isabella,Rios,9,ijones@raleighcharterhs.org
+"Jones, Zoe Luella",Jones,Zoe,Ferrando,9,zjones@raleighcharterhs.org
+"Kamper, Thomas Gary",Kamper,Thomas,Montague,9,tkamper@raleighcharterhs.org
+"Kaplinger, Brayden Ryan",Kaplinger,Brayden,Pedersen,9,bkaplinger@raleighcharterhs.org
+"Kessler, Kiran Samantha",Kessler,Kiran,Newmark,9,kkessler@raleighcharterhs.org
+"Koch, Madeline Kate",Koch,Madeline,Hess,9,mkoch@raleighcharterhs.org
+"Kolb, Luke Gerald Aloysius",Kolb,Luke,Pedersen,9,lkolb@raleighcharterhs.org
+"Konuru, Nitya Srivalli",Konuru,Nitya,Grimes,9,nkonuru@raleighcharterhs.org
+"Kraft, Natalie Rebecca",Kraft,Natalie,Grimes,9,nkraft@raleighcharterhs.org
+"Langbo, Lily",Langbo,Lily,Hames,9,llangbo@raleighcharterhs.org
+"Larosa, Daniel Vincent",Larosa,Daniel,Page,9,dlarosa@raleighcharterhs.org
+"Laskey, Meghan",Laskey,Meghan,Hames,9,mlaskey@raleighcharterhs.org
+"Lassiter, Colin Ross",Lassiter,Colin,Pedersen,9,classiter@raleighcharterhs.org
+"Leos, Jackie Olivia",Leos,Jackie,Slattery,9,jleos@raleighcharterhs.org
+"Lewis, Courtney Anne",Lewis,Courtney,Kellogg,9,colewis@raleighcharterhs.org
+"Liao, Chelsea Yuxiang",Liao,Chelsea,Hames,9,cliao@raleighcharterhs.org
+"Lopez, Isabella Ann",Lopez,Isabella,Velasquez,9,ilopez@raleighcharterhs.org
+"Luter, Hannah Beverly",Luter,Hannah,Kellogg,9,hluter@raleighcharterhs.org
+"Ma, Brian Eric",Ma,Brian,Kellogg,9,bma@raleighcharterhs.org
+"Macomber, Theodore William",Macomber,Theodore,Kellogg,9,tmacomber@raleighcharterhs.org
+"Madding, Elijah Samofal",Madding,Elijah,Rasnick,9,emadding@raleighcharterhs.org
+"Mahan-purdy, Damyenkingzley Zsigmund",Mahan-purdy,Damyenkingzley,Hess,9,dmahan-purdy@raleighcharterhs.org
+"Mahler, Nicholas Joseph",Mahler,Nicholas,Page,9,nmahler@raleighcharterhs.org
+"Mandloi, Ishan",Mandloi,Ishan,Rasnick,9,imandloi@raleighcharterhs.org
+"Manhass, Aaditya Vinay",Manhass,Aaditya,Gianini,9,avmanhass@raleighcharterhs.org
+"Matai, Sarina",Matai,Sarina,Pedersen,9,smatai@raleighcharterhs.org
+"Morris, Lukas Carson",Morris,Lukas,Gianini,9,lumorris@raleighcharterhs.org
+"Morton, Connor James",Morton,Connor,Gianini,9,cmorton@raleighcharterhs.org
+"Morton, William Donald",Morton,William,Schmitz,9,wmorton@raleighcharterhs.org
+"Nickolas, Katerina Anna",Nickolas,Katerina,Russell,9,knickolas@raleighcharterhs.org
+"Niu, Victoria",Niu,Victoria,Newmark,9,vniu@raleighcharterhs.org
+"Obaigbena, Faith Ariana",Obaigbena,Faith,Weaver,9,fobaigbena@raleighcharterhs.org
+"Obaigbena, Wisdom Stephen",Obaigbena,Wisdom,Dyrdahl,9,wobaigbena@raleighcharterhs.org
+"Ouyang, Laura Jy",Ouyang,Laura,Pedersen,9,ljouyang@raleighcharterhs.org
+"Panchikarla, Bhavana",Panchikarla,Bhavana,Pedersen,9,bpanchikarla@raleighcharterhs.org
+"Park, Hannah Hong",Park,Hannah,Pedersen,9,hhpark@raleighcharterhs.org
+"Patrick, Arabella Grace",Patrick,Arabella,Rasnick,9,apatrick@raleighcharterhs.org
+"Payne, Andie Elizabeth",Payne,Andie,Rasnick,9,apayne@raleighcharterhs.org
+"Petchetti, Harika",Petchetti,Harika,Gianini,9,hpetchetti@raleighcharterhs.org
+"Piryani, Mohit Omesh",Piryani,Mohit,Wajima,9,mpiryani@raleighcharterhs.org
+"Prasad, Ritisha",Prasad,Ritisha,Gianini,9,rprasad@raleighcharterhs.org
+"Pratt, Tyler Robert",Pratt,Tyler,Caudill,9,tpratt@raleighcharterhs.org
+"Privette, Hunter McCoy",Privette,Hunter,Palmieri,9,hprivette@raleighcharterhs.org
+"Puvvada, Deetya",Puvvada,Deetya,Winter,9,dpuvvada@raleighcharterhs.org
+"Rasheed, Ahmed",Rasheed,Ahmed,Palmieri,9,arasheed@raleighcharterhs.org
+"Rathnam, Priyanka",Rathnam,Priyanka,Winter,9,prathnam@raleighcharterhs.org
+"Reter, Zachary",Reter,Zachary,Slattery,9,zreter@raleighcharterhs.org
+"Reyes, Isabella Zazil",Reyes,Isabella,Palmieri,9,ireyes@raleighcharterhs.org
+"Richardson, Heaven Chasia",Richardson,Heaven,Cherveny,9,hrichardson@raleighcharterhs.org
+"Ruffing, Campbell SungHoon",Ruffing,Campbell,Palmieri,9,csruffing@raleighcharterhs.org
+"Salman, Lilyanna Paige",Salman,Lilyanna,Slattery,9,lsalman@raleighcharterhs.org
+"Serino, Kate Isabella",Serino,Kate,Winter,9,kserino@raleighcharterhs.org
+"Seshadri, Anushri Vijay",Seshadri,Anushri,Winter,9,aseshadri@raleighcharterhs.org
+"Shah, Suhani Ankur",Shah,Suhani,Winter,9,sushah@raleighcharterhs.org
+"Sheaffer, Elizabeth Martha",Sheaffer,Elizabeth,Yang,9,lsheaffer@raleighcharterhs.org
+"Shipman, Nora Page",Shipman,Nora,Yang,9,nshipman@raleighcharterhs.org
+"Shiraiwa, Evelyn",Shiraiwa,Evelyn,Yang,9,eshiraiwa@raleighcharterhs.org
+"Simone, Lily Grace",Simone,Lily,Wajima,9,lsimone@raleighcharterhs.org
+"Singh, Lekha Sejal",Singh,Lekha,Yang,9,lsingh@raleighcharterhs.org
+"Slusser, Gianna Jalyn",Slusser,Gianna,Arcaro,9,gslusser@raleighcharterhs.org
+"Smalls, Exavier Tyshawn",Smalls,Exavier,Koch,9,etsmalls@raleighcharterhs.org
+"Song, Allison Yang",Song,Allison,Wajima,9,asong@raleighcharterhs.org
+"Southworth, Derek",Southworth,Derek,Slattery,9,dsouthworth@raleighcharterhs.org
+"Spitz, Wyatt D",Spitz,Wyatt,Setubal,9,wspitz@raleighcharterhs.org
+"Springle, Liliana Katherine",Springle,Liliana,Yang,9,lkspringle@raleighcharterhs.org
+"Sprouse, Alexandra Rachel",Sprouse,Alexandra,Velasquez,9,asprouse@raleighcharterhs.org
+"Su, Kyle Jun-Wei",Su,Kyle,Velasquez,9,ksu@raleighcharterhs.org
+"Suresh, Shruti",Suresh,Shruti,Kellogg,9,ssuresh@raleighcharterhs.org
+"Theissen, Ethan",Theissen,Ethan,Velasquez,9,etheissen@raleighcharterhs.org
+"Thompson, Chase Vencie",Thompson,Chase,Foster,9,cthompson@raleighcharterhs.org
+"Tiwary, Aryaman",Tiwary,Aryaman,Chalifoux,9,atiwary@raleighcharterhs.org
+"Vangipurapu, Saranya Sai",Vangipurapu,Saranya,Velasquez,9,svangipurapu@raleighcharterhs.org
+"Vechalapu, Nithi",Vechalapu,Nithi,Wajima,9,nvechalapu@raleighcharterhs.org
+"Vernon, Kara Jewel",Vernon,Kara,Foster,9,kvernon@raleighcharterhs.org
+"Wajima, Miki",Wajima,Miki,Cole,9,mwajima@raleighcharterhs.org
+"Watkins, Miles Louis",Watkins,Miles,Chalifoux,9,mwatkins@raleighcharterhs.org
+"Watson, Henry Benjamin",Watson,Henry,Wajima,9,hwatson@raleighcharterhs.org
+"Wechsler, Kevin Grinblat",Wechsler,Kevin,Caudill,9,kwechsler@raleighcharterhs.org
+"Wheeler, Bailey",Wheeler,Bailey,Cole,9,bwheeler@raleighcharterhs.org
+"White, Judith Francesca",White,Judith,Chalifoux,9,jfwhite@raleighcharterhs.org
+"White, Taylor Elizabeth",White,Taylor,Palmieri,9,twhite@raleighcharterhs.org
+"Williams, Tanas Shamir",Williams,Tanas,Dyrdahl,9,twilliams@raleighcharterhs.org
+"Wilson, Sahara Lela",Wilson,Sahara,Page,9,slwilson@raleighcharterhs.org
+"Wimbish, Moriah Grace",Wimbish,Moriah,Russell,9,mwimbish@raleighcharterhs.org
+"Wu, Tony Ruoyu",Wu,Tony,Rios,9,twu@raleighcharterhs.org
+"Xu, Cathleen",Xu,Cathleen,Chalifoux,9,cxu@raleighcharterhs.org
+"Zarazua, Madeleine Johena",Zarazua,Madeleine,Rios,9,mzarazua@raleighcharterhs.org
+"Zhang, Leon Li",Zhang,Leon,Rios,9,lzhang@raleighcharterhs.org
+"Zhang, Sarah Fei",Zhang,Sarah,Weaver,9,szhang@raleighcharterhs.org
+"Acharya, Abhishek",Acharya,Abhishek,Hess,10,abacharya@raleighcharterhs.org
+"Aggarwal, Ansh",Aggarwal,Ansh,Rios,10,aaggarwal@raleighcharterhs.org
+"Alia, Laith Osama",Alia,Laith,Hess,10,lalia@raleighcharterhs.org
+"Allen, Annie Frances",Allen,Annie,Foster,10,aallen@raleighcharterhs.org
+"Allen, Stewart Nathaniel",Allen,Stewart,Rios,10,sallen@raleighcharterhs.org
+"Arias-Alcivar, Jennifer Karolynne",Arias-Alcivar,Jennifer,Koch,10,jarias-alcivar@raleighcharterhs.org
+"Ayerbe, Maxwell Calvin",Ayerbe,Maxwell,Cole,10,mayerbe@raleighcharterhs.org
+"Bammidi, Bhavan Rahul",Bammidi,Bhavan Rahul,Yang,10,bbammidi@raleighcharterhs.org
+"Bergschneider, Zoe Anne",Bergschneider,Zoe,Rios,10,zbergschneider@raleighcharterhs.org
+"Berney, Clio Kaznicki",Berney,Clio,Schmitz,10,cberney@raleighcharterhs.org
+"Bhatia, Sania",Bhatia,Sania,Rios,10,sbhatia@raleighcharterhs.org
+"Binwana, Yoani Eboma",Binwana,Yoani,Winter,10,ybinwana@raleighcharterhs.org
+"Blackman, Morgan Brooke",Blackman,Morgan,Dyrdahl,10,mblackman@raleighcharterhs.org
+"Bracken, Emma",Bracken,Emma,Schmitz,10,ebracken@raleighcharterhs.org
+"Brantley, Jacob Trey",Brantley,Jacob,Martignoni,10,jbrantley@raleighcharterhs.org
+"Bray, William Preston",Bray,William,Martignoni,10,wbray@raleighcharterhs.org
+"Brundavanam, Sarayu Sri",Brundavanam,Sarayu,Martignoni,10,sbrundavanam@raleighcharterhs.org
+"Bryant, Ella Grace",Bryant,Ella,Cole,10,ebryant@raleighcharterhs.org
+"Bryant, Rachel Halona",Bryant,Rachel,Dyrdahl,10,rhbryant@raleighcharterhs.org
+"Buchanan, Sylvia Ellen",Buchanan,Sylvia,Martignoni,10,sbuchanan@raleighcharterhs.org
+"Burns, Scott James",Burns,Scott,Gianini,10,sburns@raleighcharterhs.org
+"Caldwell, Chloe Lynn",Caldwell,Chloe,Foster,10,ccaldwell@raleighcharterhs.org
+"Caldwell, Kellen",Caldwell,Kellen,Rios,10,kcaldwell@raleighcharterhs.org
+"Caldwell, Kennedy Lorraine",Caldwell,Kennedy,Hess,10,klcaldwell@raleighcharterhs.org
+"Cano, Sebastian Andres",Cano,Sebastian,Palmieri,10,sacano@raleighcharterhs.org
+"Cantu-Melo, Diana Aida",Cantu-Melo,Diana,Rios,10,dcantu-melo@raleighcharterhs.org
+"Canulli, Faith Erin",Canulli,Faith,Palmieri,10,fcanulli@raleighcharterhs.org
+"Carbajal Shakur, Xavier David",Carbajal Shakur,Xavier,Cole,10,xcarbajal-shakur@raleighcharterhs.org
+"Cashman, Camille Eleanor",Cashman,Camille,Weaver,10,ccashman@raleighcharterhs.org
+"Ciriello, Allijah Love",Ciriello,Allijah,Dyrdahl,10,aciriello@raleighcharterhs.org
+"Clauss, Brennan Grey",Clauss,Brennan,Dyrdahl,10,bclauss@raleighcharterhs.org
+"Coimbatore, Pooja Srinivas",Coimbatore,Pooja,Gianini,10,pscoimbatore@raleighcharterhs.org
+"Collier, Luke Joseph",Collier,Luke,Page,10,lcollier@raleighcharterhs.org
+"Das, Zoya",Das,Zoya,Gianini,10,zdas@raleighcharterhs.org
+"DeStasio, Mia Madalene",DeStasio,Mia,Weaver,10,mdestasio@raleighcharterhs.org
+"Dobrosky, Katarina Lidia",Dobrosky,Katarina,Gianini,10,kdobrosky@raleighcharterhs.org
+"Duncan, Sonia Sofia",Duncan,Sonia,Slattery,10,sduncan@raleighcharterhs.org
+"Dyer, Synclaire C.G.",Dyer,Synclaire,Dyrdahl,10,sdyer@raleighcharterhs.org
+"Enad, Alexine Marie Morabe",Enad,Alexine Marie,Thelen,10,aenad@raleighcharterhs.org
+"Engelbrecht, Bryce Arlen",Engelbrecht,Bryce,Schmitz,10,bengelbrecht@raleighcharterhs.org
+"Feliciano, Kyle Christian Paras",Feliciano,Kyle Christian,Schmitz,10,kfeliciano@raleighcharterhs.org
+"Gantt, Finley Fields",Gantt,Finley,Page,10,fgantt@raleighcharterhs.org
+"Garrin, Amy Elizabeth",Garrin,Amy,Page,10,agarrin@raleighcharterhs.org
+"Gomez, Paloma Sofia",Gomez,Paloma,Page,10,pgomez@raleighcharterhs.org
+"Goodin, Cohen Thomas",Goodin,Cohen,Page,10,cgoodin@raleighcharterhs.org
+"Green, Davis Alexander",Green,Davis,Thelen,10,dgreen@raleighcharterhs.org
+"Gupta, Armaan",Gupta,Armaan,Thelen,10,argupta@raleighcharterhs.org
+"Hairston, Sabe Alexander",Hairston,Sabe,Weaver,10,shairston@raleighcharterhs.org
+"Harris, Daniel Ray",Harris,Daniel,Dyrdahl,10,dharris@raleighcharterhs.org
+"Hartman, Anjali Mae",Hartman,Anjali,Montague,10,ahartman@raleighcharterhs.org
+"Hattab, Sohaib Mansur",Hattab,Sohaib,Arcaro,10,shattab@raleighcharterhs.org
+"Healey, Meghan Alice",Healey,Meghan,Arcaro,10,mhealey@raleighcharterhs.org
+"Holste, Tate Emory",Holste,Tate,Thelen,10,tholste@raleighcharterhs.org
+"Hu, Sabrina San",Hu,Sabrina,Kellogg,10,shu@raleighcharterhs.org
+"Huckins, Vincent Alden Elliott",Huckins,Vincent,Montague,10,vhuckins@raleighcharterhs.org
+"Huguely, Morgan",Huguely,Morgan,Chalifoux,10,mhuguely@raleighcharterhs.org
+"Inkumsah, Joseph O'DonaldEkow",Inkumsah,Joseph,Koch,10,jinkumsah@raleighcharterhs.org
+"Jaligama, Lahari",Jaligama,Lahari,Chalifoux,10,ljaligama@raleighcharterhs.org
+"Jiang, Grace",Jiang,Grace,Kellogg,10,gjiang@raleighcharterhs.org
+"Jing, Yuhe",Jing,Yuhe,"Felder, J",10,mjing@raleighcharterhs.org
+"Johansson, Sophia Isabella",Johansson,Sophia,Foster,10,sjohansson@raleighcharterhs.org
+"Kalimba, Destiny Utese Pere",Kalimba,Destiny,Palmieri,10,dkalimba@raleighcharterhs.org
+"Kang, Vanessa Huiyao",Kang,Vanessa,Arcaro,10,vkang@raleighcharterhs.org
+"Kathpalia, Krish J",Kathpalia,Krish,Montague,10,kkathpalia@raleighcharterhs.org
+"Kim, Daniel Dongkyu",Kim,Daniel,Montague,10,ddkim@raleighcharterhs.org
+"Kim, Rachel",Kim,Rachel,Kellogg,10,rkim@raleighcharterhs.org
+"Le, Grace Thao Nhi",Le,Grace,"Felder, K",10,gle@raleighcharterhs.org
+"Lee, Edward",Lee,Edward,Arcaro,10,elee@raleighcharterhs.org
+"Lee, Joshua OnBin",Lee,Joshua,Cherveny,10,jolee@raleighcharterhs.org
+"Leibert, Zoe",Leibert,Zoe,Caudill,10,zleibert@raleighcharterhs.org
+"Lepisto, Evan",Lepisto,Evan,Caudill,10,elepisto@raleighcharterhs.org
+"Lettie, Ava Rose",Lettie,Ava,"Felder, K",10,alettie@raleighcharterhs.org
+"Li, Rachel Jian",Li,Rachel,"Felder, K",10,rli@raleighcharterhs.org
+"Maher, Bradley James",Maher,Bradley,Cherveny,10,bmaher@raleighcharterhs.org
+"Majmundar, Sam Phillips",Majmundar,Sam,Chalifoux,10,smajmundar@raleighcharterhs.org
+"Malik, Rajan Krishna",Malik,Rajan,Chalifoux,10,rmalik@raleighcharterhs.org
+"Mallya, Anoushka Vijayakrishna",Mallya,Anoushka,Caudill,10,amallya@raleighcharterhs.org
+"Mangum, Joanna Brooks",Mangum,Joanna,Thelen,10,bmangum@raleighcharterhs.org
+"McClure, Marshall",McClure,Marshall,Ferrando,10,mmcclure@raleighcharterhs.org
+"Mehrotra, Rohan Deep",Mehrotra,Rohan,Grimes,10,rmehrotra@raleighcharterhs.org
+"Melin, Amaury PaulDaniel",Melin,Amaury,Ferrando,10,amelin@raleighcharterhs.org
+"Miquel, Sophia Rose",Miquel,Sophia,"Felder, K",10,smiquel@raleighcharterhs.org
+"Moghazi, Kareem Sammy",Moghazi,Kareem,Grimes,10,kmoghazi@raleighcharterhs.org
+"Monteith, Madison Faith",Monteith,Madison,Hess,10,mmonteith@raleighcharterhs.org
+"Nack, Wesley Patton",Nack,Wesley,Grimes,10,wnack@raleighcharterhs.org
+"Nerayanuri, Lasya",Nerayanuri,Lasya,"Felder, J",10,lnerayanuri@raleighcharterhs.org
+"Nuzhat, Anuva",Nuzhat,Anuva,Grimes,10,anuzhat@raleighcharterhs.org
+"Oehlrich, Henry Michael",Oehlrich,Henry,Ferrando,10,hoehlrich@raleighcharterhs.org
+"Ojeda, Sebastian Kai",Ojeda,Sebastian,Winter,10,sojeda@raleighcharterhs.org
+"Olshansky, Nina Rose Graham",Olshansky,Nina,"Felder, J",10,nolshansky@raleighcharterhs.org
+"Pare, Charlotte Adams",Pare,Charlotte,Grimes,10,cpare@raleighcharterhs.org
+"Park, Esther Hong",Park,Esther,Russell,10,epark@raleighcharterhs.org
+"Patel, Bansari",Patel,Bansari,Ferrando,10,bpatel@raleighcharterhs.org
+"Patel, Lola Olivia",Patel,Lola,Winter,10,lpatel@raleighcharterhs.org
+"Pedersen, Madison Kathleen",Pedersen,Madison,Ferrando,10,mpedersen@raleighcharterhs.org
+"Peterson, Sebastian Nicholas",Peterson,Sebastian,Hames,10,speterson@raleighcharterhs.org
+"Potluru, Sri Sravya",Potluru,Sri Sravya,Russell,10,sspotluru@raleighcharterhs.org
+"Ragsdale, Kate Elizabeth",Ragsdale,Kate,Russell,10,kragsdale@raleighcharterhs.org
+"Ramesh, Vishvin Madabhushi",Ramesh,Vishvin,Newmark,10,vramesh@raleighcharterhs.org
+"Raychaudhuri, Shreyas",Raychaudhuri,Shreyas,Russell,10,sraychaudhuri@raleighcharterhs.org
+"Razai, Kauser",Razai,Kauser,Russell,10,krazai@raleighcharterhs.org
+"Richard, Gianna Maria",Richard,Gianna,Caudill,10,grichard@raleighcharterhs.org
+"Roberts, Lily Grace",Roberts,Lily,Caudill,10,lroberts@raleighcharterhs.org
+"Rodriguez do Couto, Daniel Elias",Rodriguez do Couto,Daniel,Russell,10,dcouto@raleighcharterhs.org
+"Salman, Taha",Salman,Taha,Setubal,10,tasalman@raleighcharterhs.org
+"Sanchez-Gutierrez, Rodolfo",Sanchez-Gutierrez,Rodolfo,Palmieri,10,rsanchez-gutierrez@raleighcharterhs.org
+"Sanders, Caleigh Deanne",Sanders,Caleigh,Newmark,10,cdsanders@raleighcharterhs.org
+"Shankle, Carmen Marguerite",Shankle,Carmen,Setubal,10,cshankle@raleighcharterhs.org
+"Sidana, Pari Raj",Sidana,Pari,Newmark,10,psidana@raleighcharterhs.org
+"Siddiqui, Maryam",Siddiqui,Maryam,Newmark,10,msiddiqui@raleighcharterhs.org
+"Smith, Hannah Emma",Smith,Hannah,Pedersen,10,hsmith@raleighcharterhs.org
+"Soong, Arthur Eeta",Soong,Arthur,Setubal,10,asoong@raleighcharterhs.org
+"Spriggs, Brianna Gale",Spriggs,Brianna,Rasnick,10,bspriggs@raleighcharterhs.org
+"Springle, Katelyn Marie",Springle,Katelyn,Hess,10,kspringle@raleighcharterhs.org
+"Stacey, Charles",Stacey,Charles,Hess,10,castacey@raleighcharterhs.org
+"Stanford, Fiore Ren Bernice",Stanford,Fiore Ren,Rasnick,10,fstanford@raleighcharterhs.org
+"Stephenson, Reid",Stephenson,Reid,Setubal,10,rstephenson@raleighcharterhs.org
+"Struett, Samantha Anna-Luna",Struett,Samantha,Rasnick,10,sstruett@raleighcharterhs.org
+"Sullivan, Molly",Sullivan,Molly,Martignoni,10,msullivan@raleighcharterhs.org
+"Summers, River Davidson",Summers,River,Newmark,10,rsummers@raleighcharterhs.org
+"Surapaneni, Akhil Venkata",Surapaneni,Akhil,Slattery,10,asurapaneni@raleighcharterhs.org
+"Tailor, Suhani Viren",Tailor,Suhani,Rasnick,10,svtailor@raleighcharterhs.org
+"Tewksbury, Paige Jeanette",Tewksbury,Paige,Slattery,10,ptewksbury@raleighcharterhs.org
+"Thompson, Dwight Ulysses",Thompson,Dwight,Koch,10,dthompson@raleighcharterhs.org
+"Tuinstra, Lucia",Tuinstra,Lucia,Velasquez,10,ltuinstra@raleighcharterhs.org
+"Vijaymurugan, Siddharth",Vijaymurugan,Siddharth,Velasquez,10,svijaymurugan@raleighcharterhs.org
+"Von Weihe, Owen Daniel",Von Weihe,Owen,Velasquez,10,ovonweihe@raleighcharterhs.org
+"Wagner, Karina Ginger Rose",Wagner,Karina,Setubal,10,kgwagner@raleighcharterhs.org
+"Wang, Kevin",Wang,Kevin,Slattery,10,ywang@raleighcharterhs.org
+"Watson, Brenna Marie",Watson,Brenna,Velasquez,10,bwatson@raleighcharterhs.org
+"Weinreb, Marni Hannah",Weinreb,Marni,Wajima,10,mweinreb@raleighcharterhs.org
+"Wilber, Abigail Morgan",Wilber,Abigail,Velasquez,10,awilber@raleighcharterhs.org
+"Williams, Brooke Elaine",Williams,Brooke,Wajima,10,bewilliams@raleighcharterhs.org
+"Wilson, Jacob Michael",Wilson,Jacob,Weaver,10,jmwilson@raleighcharterhs.org
+"Yablunosky, Christopher",Yablunosky,Christopher,Yang,10,cyablunosky@raleighcharterhs.org
+"Yao, Owen Tiger",Yao,Owen,Yang,10,oyao@raleighcharterhs.org
+"Zhao, Katie Noelle",Zhao,Katie,Velasquez,10,kzhao@raleighcharterhs.org
+"Abraham, Tushar John",Abraham,Tushar,Setubal,11,tabraham@raleighcharterhs.org
+"Acosta, Daniel Eduardo",Acosta,Daniel,Arcaro,11,dacosta@raleighcharterhs.org
+"Adams, Mallory Anne",Adams,Mallory,Arcaro,11,madams@raleighcharterhs.org
+"Addison, Rudy LeoJohn",Addison,Rudy,Arcaro,11,raddison@raleighcharterhs.org
+"Alder, Thomas David",Alder,Thomas,Foster,11,talder@raleighcharterhs.org
+"Alexander, Max Jerger",Alexander,Max,Caudill,11,mxalexander@raleighcharterhs.org
+"Avula, Krisha Reddy",Avula,Krisha,Caudill,11,kravula@raleighcharterhs.org
+"Ayala, Aileen Angelica",Ayala,Aileen,Caudill,11,aayala@raleighcharterhs.org
+"Aycock, Samuel Terry",Aycock,Samuel,Foster,11,saycock@raleighcharterhs.org
+"Barampuram, Jagruthi",Barampuram,Jagruthi,Wajima,11,rbarampuram@raleighcharterhs.org
+"Bisher, Emily Kate",Bisher,Emily,Winter,11,ebisher@raleighcharterhs.org
+"Breidsprecher, Ander Stefan",Breidsprecher,Ander,"Felder, K",11,abreidsprecher@raleighcharterhs.org
+"Bulanadi, Catherine",Bulanadi,Catherine,Cherveny,11,cbulanadi@raleighcharterhs.org
+"Casillas, Isaiah Marquez",Casillas,Isaiah,Hess,11,icasillas@raleighcharterhs.org
+"Coats, Elizabeth Shannon",Coats,Elizabeth,"Felder, K",11,ecoats@raleighcharterhs.org
+"Curtis, Gabriel Aaron",Curtis,Gabriel,"Felder, K",11,gcurtis@raleighcharterhs.org
+"Ejituwu, Imin Valerie",Ejituwu,Imin,Grimes,11,ivejituwu@raleighcharterhs.org
+"Flaherty, Windsor",Flaherty,Windsor,Grimes,11,wflaherty@raleighcharterhs.org
+"Fox, Andrew Thomas",Fox,Andrew,Cole,11,atfox@raleighcharterhs.org
+"Garcia, Ashanna Mikee",Garcia,Ashanna,Hames,11,agarcia@raleighcharterhs.org
+"Grothe, Anthony",Grothe,Anthony,Koch,11,agrothe@raleighcharterhs.org
+"Hedrick, Carlisle Elizabeth",Hedrick,Carlisle,Hames,11,chedrick@raleighcharterhs.org
+"Hill, Anna Grayson",Hill,Anna,Hames,11,ghill@raleighcharterhs.org
+"Hughes, Zofia Paulina",Hughes,Zofia,Ferrando,11,zhughes@raleighcharterhs.org
+"Jawali, Disha Sunil",Jawali,Disha,Martignoni,11,djawali@raleighcharterhs.org
+"Jones, Casey Alexander",Jones,Casey,Ferrando,11,acjones@raleighcharterhs.org
+"Jones, Lyla Becton",Jones,Lyla,Martignoni,11,lbjones@raleighcharterhs.org
+"Jones, Molly Street",Jones,Molly,Kellogg,11,msjones@raleighcharterhs.org
+"Krieman, Josie Elizabeth",Krieman,Josie,Montague,11,jkrieman@raleighcharterhs.org
+"LeBlanc, Andre Allen",LeBlanc,Andre,Newmark,11,aaleblanc@raleighcharterhs.org
+"Leibert, Gavin William",Leibert,Gavin,Newmark,11,gleibert@raleighcharterhs.org
+"Miller, Darian Danae",Miller,Darian,Cherveny,11,ddmiller@raleighcharterhs.org
+"Naimee, Solaiman",Naimee,Solaiman,Cole,11,sonaimee@raleighcharterhs.org
+"Nickels, Carmen Rae",Nickels,Carmen,Rasnick,11,crnickels@raleighcharterhs.org
+"Olson, Eva Rose",Olson,Eva,Page,11,erolson@raleighcharterhs.org
+"Orellana, Neo Alessandro",Orellana,Neo,Palmieri,11,norellana@raleighcharterhs.org
+"Ouyang, Leo Jy",Ouyang,Leo,Rasnick,11,louyang@raleighcharterhs.org
+"Parker, Jada Lynn",Parker,Jada,Gianini,11,jlparker@raleighcharterhs.org
+"Raynor, Aidan Phillips",Raynor,Aidan,Schmitz,11,araynor@raleighcharterhs.org
+"Riordan, Avery Pierce",Riordan,Avery,"Felder, J",11,ariordan@raleighcharterhs.org
+"Rivas, Angel Alexander",Rivas,Angel,Rios,11,arivas@raleighcharterhs.org
+"Rodriguez, Gabriela Veronica",Rodriguez,Gabriela,Slattery,11,grodriguez@raleighcharterhs.org
+"Roland-Sagui, Francisco Martin",Roland-Sagui,Francisco,Hess,11,froland-sagui@raleighcharterhs.org
+"Ruiz, Alessandro Rodolfo",Ruiz,Alessandro,Slattery,11,aruiz@raleighcharterhs.org
+"Russo, Michael Robert",Russo,Michael,Slattery,11,mrusso@raleighcharterhs.org
+"Sareen, Arnav",Sareen,Arnav,Slattery,11,asareen@raleighcharterhs.org
+"Shah, Paarshva Ankur",Shah,Paarshva,Gianini,11,pashah@raleighcharterhs.org
+"Shearon, Natalie Susan",Shearon,Natalie,Slattery,11,nsshearon@raleighcharterhs.org
+"Sheng, Kyle",Sheng,Kyle,Thelen,11,ksheng@raleighcharterhs.org
+"Smalls, Emarion",Smalls,Emarion,Page,11,esmalls@raleighcharterhs.org
+"Southworth, Natalie Paige",Southworth,Natalie,Thelen,11,nsouthworth@raleighcharterhs.org
+"Spencer, Wynter",Spencer,Wynter,Thelen,11,wspencer@raleighcharterhs.org
+"Spitz, Tessa M",Spitz,Tessa,Thelen,11,tspitz@raleighcharterhs.org
+"Strickland, Thomas Young",Strickland,Thomas,Velasquez,11,tstrickland@raleighcharterhs.org
+"Yadav, Avani Manjunath",Yadav,Avani,Yang,11,ayadav@raleighcharterhs.org
+"Zapata, Avery Painter",Zapata,Avery,Yang,11,azapata@raleighcharterhs.org
+"Anantha, Sumant",Anantha,Sumant,Foster,12,sanantha@raleighcharterhs.org
+"Bergschneider, Ella Grace",Bergschneider,Ella,Caudill,12,ebergschneider@raleighcharterhs.org
+"Elliott, Sarah",Elliott,Sarah,Weaver,12,selliott@raleighcharterhs.org
+"Fluhrer, Andrew Bond",Fluhrer,Andrew,Gianini,12,afluhrer@raleighcharterhs.org
+"Ganesan, Divya",Ganesan,Divya,Grimes,12,dganesan@raleighcharterhs.org
+"Jackson, Elliott Warner",Jackson,Elliott,Dyrdahl,12,ejackson@raleighcharterhs.org
+"Jain, Harshi Sunil",Jain,Harshi,Dyrdahl,12,hjain@raleighcharterhs.org
+"Lin, Cliff",Lin,Cliff,Kellogg,12,clin@raleighcharterhs.org
+"Murray, Isabella",Murray,Isabella,Ferrando,12,imurray@raleighcharterhs.org
+"Quan, Howsen",Quan,Howsen,Palmieri,12,hlquan@raleighcharterhs.org
+"Rivas, Lucy Penelope",Rivas,Lucy,Setubal,12,lrivas@raleighcharterhs.org
+"Rizk, Liliana Charbel",Rizk,Liliana,Chalifoux,12,lrizk@raleighcharterhs.org
+"Tate, Margaret Delaney",Tate,Margaret,Slattery,12,mtate@raleighcharterhs.org
+"VanDyke, James O'Dell",VanDyke,James,Schmitz,12,jvandyke@raleighcharterhs.org
+"Wilson, Hannah Joy Jian",Wilson,Hannah Joy,Wajima,12,hwilson@raleighcharterhs.org
+"Wolff, Emilia Rose",Wolff,Emilia,Wajima,12,ewolff@raleighcharterhs.org
