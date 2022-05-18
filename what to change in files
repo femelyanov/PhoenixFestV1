@@ -1,3 +1,64 @@
 attach a head to the "Presenters" file
 Change the "Preference Responses" grades to just numbers, not objects
 Preference Responses - Email and not Email Address
+
+
+
+for student in students_no_pres:
+    print(student.email)
+    for group in student.choices:
+        for y in group:
+            if find_program(y).category == '1':
+                print(y)
+
+for x in students_no_pres:
+    if x.email == "aladams@raleighcharterhs.org":
+        print(x.choices[1])
+        print(find_program(x.choices[1][0]).category)
+        print(find_program(x.choices[1][1]).category)
+        print(find_program(x.choices[1][2]).category)
+        print(find_program(x.choices[1][3]).category)
+        print(find_program(x.choices[1][4]).category)
+
+
+overflown_programs = []
+for program in programs: # go through every program
+    if program.is_available() == False: # if the program is oversubscribed
+        overflown_programs.append(program) # add it to the list of overflown programs
+
+poor_kids = [] 
+for oprogram in overflown_programs: # for every program that is oversubscribed
+    while len(oprogram.students) > oprogram.max_cap: # if the program is oversubscribed, then we need to remove people from it
+        poor_kids.append(random.choice(oprogram.students)) # randomly pick a student from the program
+        oprogram.students.remove(poor_kids[-1]) # remove them from the program
+
+
+extra_students = []
+no_left = 0
+for student in students: # goes through every student
+    if student.presenter == True: #if presenter, pass
+        #print(student.email, "is presenter")
+        pass
+    elif len(student.choices) == 0: # if didnt make choices, then put him in the 'extra students' container
+        extra_students.append(student)
+    else:
+        #print(student.choices[0]) # print the choices of the student
+        pass
+        for pr_id in student.choices[0]: # for every program id, go through every choice that the student has
+            program = find_program(pr_id)
+            if program.is_available(): # checks if a program is available
+                program.students.append(student.email) # append the email to the list of students attending the program
+                student.assigned[0] = True # change the status of the student
+                break
+        if student.assigned[0] == False: # if none of the 5 choices are available, put the student into the 'extra students' container
+            extra_students.append(student)
+    no_left += 1
+#print("no left: ", no_left)
+all_diff = 0
+for p in range(0,21): # go through every program (put 0-21) because there are 21 programs in the first category
+    program = programs[p]
+    difference = 0
+    if len(program.students) < program.min_cap:
+        difference = program.min_cap - len(program.students) # difference between the minimum cap and the number of students in there (so we can see how many students need to be added to satisfy the min cap)
+        all_diff += difference # see how many people we need
+#print("Need people: ", all_diff)

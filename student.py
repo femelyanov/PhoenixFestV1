@@ -6,6 +6,7 @@ class Student:
     first_name = ""
     grade = ""
     choices = []
+    which_choice = -1
     assigned = [False,False,False,False]
     presenter = False
 

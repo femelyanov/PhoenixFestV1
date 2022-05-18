@@ -2,7 +2,7 @@ class Program:
 
     title = ''
     program_id = 0
-    category = ''
+    category = 0
     room = ''
     min_cap = 0
     max_cap = 0
@@ -19,7 +19,7 @@ class Program:
         self.students = []
 
     def is_available(self):
-        if len(self.students) < self.max_cap:
+        if len(self.students) <= self.max_cap:
             return True
         else:
             return False
